@@ -1,0 +1,13 @@
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.csprojAssemblyReference.cache
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.csproj.CoreCompileInputs.cache
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.AssemblyInfoInputs.cache
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.AssemblyInfo.cs
+K:\FactoryMethodMail\bin\Debug\netcoreapp3.1\FactoryMethodMail.exe
+K:\FactoryMethodMail\bin\Debug\netcoreapp3.1\FactoryMethodMail.deps.json
+K:\FactoryMethodMail\bin\Debug\netcoreapp3.1\FactoryMethodMail.runtimeconfig.json
+K:\FactoryMethodMail\bin\Debug\netcoreapp3.1\FactoryMethodMail.runtimeconfig.dev.json
+K:\FactoryMethodMail\bin\Debug\netcoreapp3.1\FactoryMethodMail.dll
+K:\FactoryMethodMail\bin\Debug\netcoreapp3.1\FactoryMethodMail.pdb
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.dll
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.pdb
+K:\FactoryMethodMail\obj\Debug\netcoreapp3.1\FactoryMethodMail.genruntimeconfig.cache

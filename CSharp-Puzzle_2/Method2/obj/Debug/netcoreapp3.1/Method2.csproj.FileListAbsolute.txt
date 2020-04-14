@@ -1,0 +1,13 @@
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.csprojAssemblyReference.cache
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.csproj.CoreCompileInputs.cache
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.AssemblyInfoInputs.cache
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.AssemblyInfo.cs
+K:\CSharpPuzzle 2\Method2\bin\Debug\netcoreapp3.1\Method2.exe
+K:\CSharpPuzzle 2\Method2\bin\Debug\netcoreapp3.1\Method2.deps.json
+K:\CSharpPuzzle 2\Method2\bin\Debug\netcoreapp3.1\Method2.runtimeconfig.json
+K:\CSharpPuzzle 2\Method2\bin\Debug\netcoreapp3.1\Method2.runtimeconfig.dev.json
+K:\CSharpPuzzle 2\Method2\bin\Debug\netcoreapp3.1\Method2.dll
+K:\CSharpPuzzle 2\Method2\bin\Debug\netcoreapp3.1\Method2.pdb
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.dll
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.pdb
+K:\CSharpPuzzle 2\Method2\obj\Debug\netcoreapp3.1\Method2.genruntimeconfig.cache

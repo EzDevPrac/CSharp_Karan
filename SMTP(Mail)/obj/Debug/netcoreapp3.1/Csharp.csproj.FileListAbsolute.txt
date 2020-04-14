@@ -1,0 +1,15 @@
+K:\Csharp\bin\Debug\netcoreapp3.1\Csharp.exe
+K:\Csharp\bin\Debug\netcoreapp3.1\Csharp.deps.json
+K:\Csharp\bin\Debug\netcoreapp3.1\Csharp.runtimeconfig.json
+K:\Csharp\bin\Debug\netcoreapp3.1\Csharp.runtimeconfig.dev.json
+K:\Csharp\bin\Debug\netcoreapp3.1\Csharp.dll
+K:\Csharp\bin\Debug\netcoreapp3.1\Csharp.pdb
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.csprojAssemblyReference.cache
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.csproj.CoreCompileInputs.cache
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.AssemblyInfoInputs.cache
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.AssemblyInfo.cs
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.dll
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.pdb
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.genruntimeconfig.cache
+K:\Csharp\obj\Debug\netcoreapp3.1\Csharp.csproj.CopyComplete
+K:\Csharp\bin\Debug\netcoreapp3.1\EASendMail.dll

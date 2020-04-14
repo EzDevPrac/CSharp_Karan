@@ -1,0 +1,13 @@
+K:\Command Pattern\bin\Debug\netcoreapp3.1\Command Pattern.exe
+K:\Command Pattern\bin\Debug\netcoreapp3.1\Command Pattern.deps.json
+K:\Command Pattern\bin\Debug\netcoreapp3.1\Command Pattern.runtimeconfig.json
+K:\Command Pattern\bin\Debug\netcoreapp3.1\Command Pattern.runtimeconfig.dev.json
+K:\Command Pattern\bin\Debug\netcoreapp3.1\Command Pattern.dll
+K:\Command Pattern\bin\Debug\netcoreapp3.1\Command Pattern.pdb
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.csprojAssemblyReference.cache
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.csproj.CoreCompileInputs.cache
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.AssemblyInfoInputs.cache
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.AssemblyInfo.cs
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.dll
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.pdb
+K:\Command Pattern\obj\Debug\netcoreapp3.1\Command Pattern.genruntimeconfig.cache
