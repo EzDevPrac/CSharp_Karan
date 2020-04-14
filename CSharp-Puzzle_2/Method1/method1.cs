@@ -35,13 +35,13 @@ namespace Method1
               }
              }
              else
-             {
+             { 
                  continue;
              } 
            }
            if(count==0)
            {
-               Console.WriteLine("No pIars Found");
+               Console.WriteLine("No pIars Found in the given array");
            }
 
 
