@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\Method1.csproj": {}
+    "K:\\MyCSharpProject\\Puzzle_CommandPAttern\\Puzzle_CommandPAttern.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\Method1.csproj": {
+    "K:\\MyCSharpProject\\Puzzle_CommandPAttern\\Puzzle_CommandPAttern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\Method1.csproj",
-        "projectName": "Method1",
-        "projectPath": "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\Method1.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Puzzle_CommandPAttern\\Puzzle_CommandPAttern.csproj",
+        "projectName": "Puzzle_CommandPAttern",
+        "projectPath": "K:\\MyCSharpProject\\Puzzle_CommandPAttern\\Puzzle_CommandPAttern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Puzzle_CommandPAttern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

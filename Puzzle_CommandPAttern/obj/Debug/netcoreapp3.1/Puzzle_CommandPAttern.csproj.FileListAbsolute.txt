@@ -1,0 +1,4 @@
+K:\MyCSharpProject\Puzzle_CommandPAttern\obj\Debug\netcoreapp3.1\Puzzle_CommandPAttern.csprojAssemblyReference.cache
+K:\MyCSharpProject\Puzzle_CommandPAttern\obj\Debug\netcoreapp3.1\Puzzle_CommandPAttern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Puzzle_CommandPAttern\obj\Debug\netcoreapp3.1\Puzzle_CommandPAttern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Puzzle_CommandPAttern\obj\Debug\netcoreapp3.1\Puzzle_CommandPAttern.AssemblyInfo.cs

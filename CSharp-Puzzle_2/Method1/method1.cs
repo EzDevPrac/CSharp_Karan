@@ -1,7 +1,11 @@
 ﻿using System;
 
 namespace Method1
-{
+{   class Method1{
+
+
+
+  }
     class Program
     {
         static void Main(string[] args)

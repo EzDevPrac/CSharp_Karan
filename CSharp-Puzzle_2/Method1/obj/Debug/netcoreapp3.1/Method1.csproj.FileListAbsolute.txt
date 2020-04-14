@@ -24,3 +24,16 @@ K:\MyCSharpProject\CSharpPuzzle 2\Method1\obj\Debug\netcoreapp3.1\Method1.Assemb
 K:\MyCSharpProject\CSharpPuzzle 2\Method1\obj\Debug\netcoreapp3.1\Method1.dll
 K:\MyCSharpProject\CSharpPuzzle 2\Method1\obj\Debug\netcoreapp3.1\Method1.pdb
 K:\MyCSharpProject\CSharpPuzzle 2\Method1\obj\Debug\netcoreapp3.1\Method1.genruntimeconfig.cache
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\bin\Debug\netcoreapp3.1\Method1.exe
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\bin\Debug\netcoreapp3.1\Method1.deps.json
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\bin\Debug\netcoreapp3.1\Method1.runtimeconfig.json
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\bin\Debug\netcoreapp3.1\Method1.runtimeconfig.dev.json
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\bin\Debug\netcoreapp3.1\Method1.dll
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\bin\Debug\netcoreapp3.1\Method1.pdb
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.csprojAssemblyReference.cache
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.AssemblyInfoInputs.cache
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.AssemblyInfo.cs
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.dll
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.pdb
+K:\MyCSharpProject\CSharp-Puzzle_2\Method1\obj\Debug\netcoreapp3.1\Method1.genruntimeconfig.cache
