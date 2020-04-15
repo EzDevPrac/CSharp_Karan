@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj": {}
+    "K:\\MyCSharpProject\\PuzzleCommandPattern\\PuzzleCommandPattern.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj": {
+    "K:\\MyCSharpProject\\PuzzleCommandPattern\\PuzzleCommandPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
-        "projectName": "FactoryMethodMail",
-        "projectPath": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\PuzzleCommandPattern\\PuzzleCommandPattern.csproj",
+        "projectName": "PuzzleCommandPattern",
+        "projectPath": "K:\\MyCSharpProject\\PuzzleCommandPattern\\PuzzleCommandPattern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\FactoryMethodMail\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\PuzzleCommandPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

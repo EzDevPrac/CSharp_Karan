@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\Method1.csproj",
-      "projectName": "Method1",
-      "projectPath": "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\Method1.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\ArrayMethod.csproj",
+      "projectName": "ArrayMethod",
+      "projectPath": "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\ArrayMethod.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "K:\\MyCSharpProject\\CSharp-Puzzle_2\\Method1\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

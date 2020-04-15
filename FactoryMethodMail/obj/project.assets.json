@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\FactoryMethodMail\\FactoryMethodMail.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
       "projectName": "FactoryMethodMail",
-      "projectPath": "K:\\FactoryMethodMail\\FactoryMethodMail.csproj",
+      "projectPath": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "K:\\FactoryMethodMail\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\FactoryMethodMail\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

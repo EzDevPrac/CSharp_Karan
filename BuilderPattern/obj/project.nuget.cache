@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rMLVHzgBXFxCB1vHVk/PEmRKVWEz3KaN7eb4cfc7ZN3YqsPonrlDHaKw+HtA4OttWhcPBZOX4xnYAkyHEWIOOA==",
+  "dgSpecHash": "CcJQ+NDKG2UqS0qzaM6QPD+HHyup9JmqhzvEmxKxLYc4av5cYoqH6wCf9BUmsnhu0yDtM0ByogWZ3iLWYxxhUg==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\BuilderPattern_Example\\BuilderPattern_Example.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

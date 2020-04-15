@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj": {}
+    "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\ArrayMethod.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj": {
+    "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\ArrayMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
-        "projectName": "FactoryMethodMail",
-        "projectPath": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\ArrayMethod.csproj",
+        "projectName": "ArrayMethod",
+        "projectPath": "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\ArrayMethod.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\FactoryMethodMail\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Algorithms\\ArrayMethod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y1CHDlFM8pTn74mrumocyf0e96bdE2kdwLryhj2AupXx1lBVBTKd9OSvstCpmtQT9pDMm4Nysy5UtoPyBiwJnQ==",
+  "dgSpecHash": "mDFqGCkcWXMWQG/O0nTvSG/azPLhdzT+zj8xxtroEJdvkx/NTwm+MdKQSzaplB8hiJikC1RWRtud2+3zjJUlNw==",
   "success": true,
-  "projectFilePath": "K:\\Command Pattern\\Command Pattern.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

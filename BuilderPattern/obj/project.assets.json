@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\MyCSharpProject\\BuilderPattern_Example\\BuilderPattern_Example.csproj",
-      "projectName": "BuilderPattern_Example",
-      "projectPath": "K:\\MyCSharpProject\\BuilderPattern_Example\\BuilderPattern_Example.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
+      "projectName": "BuilderPattern",
+      "projectPath": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "K:\\MyCSharpProject\\BuilderPattern_Example\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\BuilderPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

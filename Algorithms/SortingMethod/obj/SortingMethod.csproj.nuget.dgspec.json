@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj": {}
+    "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj": {
+    "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
-        "projectName": "FactoryMethodMail",
-        "projectPath": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj",
+        "projectName": "SortingMethod",
+        "projectPath": "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\FactoryMethodMail\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

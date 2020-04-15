@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8t8oyz8LCEwGt0D8CyaQjyY4kt9/0z+YQKwfeFDZgHGz5lxXPXvj/Xu+BEfOaAPxH+us/IJk3TlfLLmtxABsng==",
+  "dgSpecHash": "mzqn89H9bnFHL6DJk7obzD+NnhLbfevNXKo/jWLXNjRU54RcMbBOZPZZlL7pH42f4jXXNpl2aMAd16lPHhrx0w==",
   "success": true,
-  "projectFilePath": "K:\\FactoryMethodMail\\FactoryMethodMail.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\FactoryMethodMail\\FactoryMethodMail.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

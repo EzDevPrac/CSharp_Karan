@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Command Pattern\\Command Pattern.csproj",
-      "projectName": "Command Pattern",
-      "projectPath": "K:\\Command Pattern\\Command Pattern.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
+      "projectName": "CommandPattern",
+      "projectPath": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "K:\\Command Pattern\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\CommandPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
