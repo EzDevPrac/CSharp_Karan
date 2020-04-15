@@ -1,0 +1,13 @@
+K:\MyCSharpProject\CommandPatternExample2\bin\Debug\netcoreapp3.1\CommandPatternExample2.exe
+K:\MyCSharpProject\CommandPatternExample2\bin\Debug\netcoreapp3.1\CommandPatternExample2.deps.json
+K:\MyCSharpProject\CommandPatternExample2\bin\Debug\netcoreapp3.1\CommandPatternExample2.runtimeconfig.json
+K:\MyCSharpProject\CommandPatternExample2\bin\Debug\netcoreapp3.1\CommandPatternExample2.runtimeconfig.dev.json
+K:\MyCSharpProject\CommandPatternExample2\bin\Debug\netcoreapp3.1\CommandPatternExample2.dll
+K:\MyCSharpProject\CommandPatternExample2\bin\Debug\netcoreapp3.1\CommandPatternExample2.pdb
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.csprojAssemblyReference.cache
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.AssemblyInfoInputs.cache
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.AssemblyInfo.cs
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.dll
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.pdb
+K:\MyCSharpProject\CommandPatternExample2\obj\Debug\netcoreapp3.1\CommandPatternExample2.genruntimeconfig.cache

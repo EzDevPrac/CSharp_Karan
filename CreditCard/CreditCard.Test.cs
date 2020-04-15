@@ -1,7 +1,8 @@
 using Xunit;
-using Credit_Card;
+using CreditCard;
 
-public class CreditCard_Test
+namespace CreditCard.Test{
+public class CreditCardTest
 {
  [Fact]
  public void PlaninumInputTestCase()
@@ -36,4 +37,5 @@ public void TitaniumInputTestCase()
 }
 
 
+}
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommandPattern_Ex2
+namespace CommandPatternExample2
 {
     //Reciever Object
     public class Document

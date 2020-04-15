@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BuilderPattern_Example
+namespace BuilderPattern
 {
 
 //Builder

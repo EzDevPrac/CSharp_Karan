@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections;
-namespace Method3
+namespace Algorithms
 {
-    class Program
+    class SortingMethod
     {
         static void Main(string[] args)
         { 

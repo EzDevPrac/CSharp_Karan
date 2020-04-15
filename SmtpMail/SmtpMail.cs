@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Mail;
 
 
-namespace mysendemail
+namespace SmtpMail
 {
     class SendMail
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Credit_Card
+namespace CreditCard
 { //Product
     abstract class CreditCard  
     {  

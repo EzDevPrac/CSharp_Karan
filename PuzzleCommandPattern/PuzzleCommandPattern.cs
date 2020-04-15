@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Puzzle_CommandPAttern
+namespace PuzzleCommandPattern
 {
     //'ICommand' interface
     public interface ICommand

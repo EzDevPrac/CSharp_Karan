@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Command_Pattern
+namespace CommandPattern
 {
  
     //'ICommand' interface

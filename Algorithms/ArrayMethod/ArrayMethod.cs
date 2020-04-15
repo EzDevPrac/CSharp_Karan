@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace Method1
-{   class Method1{
-
-
-
-  }
-    class Program
+namespace Algorithms
+{   
+    
+    class ArrayMethod
     {
         static void Main(string[] args)
         {   
