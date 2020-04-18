@@ -1,0 +1,13 @@
+K:\MyCSharpProject\BuilderPattern\bin\Debug\netcoreapp3.1\BuilderPattern.exe
+K:\MyCSharpProject\BuilderPattern\bin\Debug\netcoreapp3.1\BuilderPattern.deps.json
+K:\MyCSharpProject\BuilderPattern\bin\Debug\netcoreapp3.1\BuilderPattern.runtimeconfig.json
+K:\MyCSharpProject\BuilderPattern\bin\Debug\netcoreapp3.1\BuilderPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\BuilderPattern\bin\Debug\netcoreapp3.1\BuilderPattern.dll
+K:\MyCSharpProject\BuilderPattern\bin\Debug\netcoreapp3.1\BuilderPattern.pdb
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.AssemblyInfo.cs
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.dll
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.pdb
+K:\MyCSharpProject\BuilderPattern\obj\Debug\netcoreapp3.1\BuilderPattern.genruntimeconfig.cache

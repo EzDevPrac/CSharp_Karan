@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1k/bhNkNJRmkNH3F6U4ixNS0fBWEv6zeOZLKTrFxv7hQAK4O5w445DYnf4qB27CX8yMWeg+w5IxC5sUCk9+Tw==",
+  "dgSpecHash": "Leg7kLFGnHp/1/pyi7fqxETcBskLnqtdjCV3yCLOXLayOPsYSczO+dgHTwFsgYkC5XCAWltwEHpHjOoA3uRLNQ==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj",
+  "projectFilePath": "k:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.codecoverage\\16.6.0-preview-20200318-01\\microsoft.codecoverage.16.6.0-preview-20200318-01.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

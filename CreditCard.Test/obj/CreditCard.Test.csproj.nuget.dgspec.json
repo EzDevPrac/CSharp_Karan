@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj": {}
+    "k:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj": {
+    "k:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj",
+        "projectUniqueName": "k:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj",
         "projectName": "CreditCard.Test",
-        "projectPath": "K:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj",
+        "projectPath": "k:\\MyCSharpProject\\CreditCard.Test\\CreditCard.Test.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\CreditCard.Test\\obj\\",
+        "outputPath": "k:\\MyCSharpProject\\CreditCard.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {
-                "projectPath": "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj"
+              "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {
+                "projectPath": "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {
+    "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
+        "projectUniqueName": "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
         "projectName": "CreditCard",
-        "projectPath": "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
+        "projectPath": "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\CreditCard\\obj\\",
+        "outputPath": "k:\\MyCSharpProject\\CreditCard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
