@@ -1,11 +1,11 @@
 # C-Sharp Project Karan 
 [![Build Status](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_apis/build/status/EzDevPrac.CSharp_Karan?branchName=master)](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_build/latest?definitionId=1&branchName=master)
 
-**DESIGN PATTERN**
+# DESIGN PATTERN
 
 
 
-**FACTORY DESIGN PATTERN**
+## FACTORY DESIGN PATTERN
 
 1. Design patterns are all about reusable solutions for a common problem.
 2. The 23 group of four are the foundation for the entire pattern
@@ -79,7 +79,7 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
 
 
 
-**BUILDER DESIGN PATTERN:**
+## BUILDER DESIGN PATTERN:
 *  This also falls under the category of creational design pattern.
 *  This pattern is used to build complex object by using a step by step approach.
 *  The main idea is **“Separate the construction of complex object from its representation so that the same construction 
@@ -139,7 +139,7 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/BuilderPattern
 
 
 
-**Command Design Pattern:**
+## Command Design Pattern:
 
 
 It falls under behavioral patter.
