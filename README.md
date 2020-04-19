@@ -15,7 +15,7 @@
    *  Interfaces cannot have variables/fields , they can only have properties or methods.
    *  It provides the client with a simple way to create the object.
 
-![alt text](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/f7b5bf059d0970cb403b07a3abab7196/Screenshot__40_.png)
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/f7b5bf059d0970cb403b07a3abab7196/Screenshot__40_.png)
 
   1. Product: Define the interface of the object the factory method creates.
   2. Concrete Product: This is a class that implements the product interface
@@ -26,48 +26,47 @@
  **Code Snippet**
 1.  Product Class
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/f27fe9d985a6fd4e4fdfb4a6aaf62e7e/1.png)
 
 2.  Concrete Product Class for Platinum card:
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/01ddd633bb0614cb1316f32c9c9ce4f3/2.png)
 
 3.  Concrete Product Class for Titanium Card:
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/66a87ee8fed2b6a921df088ceabaac13/3.png)
 
 4.  Creator Class 
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e44271f429667d6bb703c382d88d226e/4.png)
 
 5.  Concrete Creator class for the platinum card:
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ac664f169b1eb66364092713a926fc61/5.png)
 
 6.  Concrete Creator class for the Titanium Card
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/46328d8ac785d60ec77f807fa0bd9221/6.png)
 
 7.  Driver Class for the program:
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/c07c44293ed72a8d6b9f071037825d9c/7.png)
 
 **Input**
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/671dbceab5b537339a35d5760ad251e3/8.png)
 
 **Output**
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a55b05ae26edc20bf486138ab5af4200/9.png)
 
 **Code Flow for the above given example**
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/b1c3d79e48abbef4bf68135b77a9b823/Screenshot__41_.png)
 
 **Below link is available for the Git to get the sample code**
 
-https://gitlab.com/vr.srinidhi/retailplusrota/-/blob/master/R%20Karan%20Kumar/Credit_Card.zip
-
+!https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
 
 
 
