@@ -137,6 +137,8 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/BuilderPattern
 
 
 
+
+
 **Command Design Pattern:**
 
 
@@ -145,7 +147,8 @@ It is commonly used in the menu system of many applications such as Editor,IDE e
 In this pattern a request is wrapped under an object as a command and passed to invoker object . The invoker object pass the 
     command to the appropriate object which can handle it and that object executes the command.
 *  UML diagram:
-   ![alt text]()
+
+   ![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/af33d393607865a5993377b32246cf0e/Command_Uml.png)
 1.  Client Class --> Creates and executes the command object
 2.  Invoker  --> Asks the command to carry out the action
 3.  Command --> This is an interface which specifies the execute operation
@@ -156,45 +159,42 @@ In this pattern a request is wrapped under an object as a command and passed to 
 
 1.  command Interface
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/0e1abbf5b46023639111642731511d23/1.png)
 
 2.  The invoker Class
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/504536550a3570313d48308759bc593b/2.png)
 
 3.   The Reciever Class
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/1a6f0531798e3c80a4624bd42b44e273/3.png)
 
 4.   Concrete Command for addition
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cecb15fffd0d9571613fc275e9a5a471/4.png)
 
 
 5.   Concrete Command for Subtraction
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/eb291df7b9bd61b809cda070fb09f42f/5.png)
 
 
 6.   Driver Class
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/06dd027bb4147864e0a21117daad09c5/6.png)
 
 
-**Input**
+**Input And Output**
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/414094ff110353c75830b40a7287b8be/7.png)
 
 
-**OutPut**
-
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/784d4387951758f3cd71e2f606472b83/BuilderDesign_MYExample.png)
 
 
 **A working Prototype of the code is available in the following link**
 
-https://gitlab.com/vr.srinidhi/retailplusrota/-/blob/master/R%20Karan%20Kumar/Command_Pattern.zip
- 
+ https://github.com/EzDevPrac/CSharp_Karan/tree/master/CommandPattern
 
 
                                                                                      
