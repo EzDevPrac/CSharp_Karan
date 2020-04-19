@@ -1,6 +1,10 @@
 # C-Sharp Project Karan 
 [![Build Status](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_apis/build/status/EzDevPrac.CSharp_Karan?branchName=master)](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_build/latest?definitionId=1&branchName=master)
 
+**DESIGN PATTERN**
+
+
+
 **FACTORY DESIGN PATTERN**
 
 1. Design patterns are all about reusable solutions for a common problem.
@@ -72,6 +76,9 @@
 
 
 
+
+
+
 **BUILDER DESIGN PATTERN:**
 *  This also falls under the category of creational design pattern.
 *  This pattern is used to build complex object by using a step by step approach.
@@ -80,7 +87,7 @@
 
 
  
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e16472033e9f346c5c7336e173cbf45c/Builder_Pattern_Design.png)
 
 1.  **Builder**: this is an interface which is used to define all the steps required to the product
 2.  **Concrete Builder**: This is a class which implements the builder interface to create a complex product.
@@ -91,38 +98,41 @@
 
 1.  Toy Builder Interface
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/6e9be32e53f72b46fc18a0519a342359/1.png)
 
 2.  Product Class 
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/08ad58d6d976d09927cd9cafa08b4206/2.png)
 
 3.  Concrete Builder for the Toy A 
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/aa1b44d85b4da2b91dc7e8831cc5f0bf/3.png)
 
 4.  Concrete Builder for the Toy B
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cb1b1414f3e845d44e17c4e1895d75ca/4.png)
 
 5.  Director Class
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/b7d08a0e980845b5c1e38babea1f6c60/5.png)
 
 6.  Main Class for the program
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/06dd027bb4147864e0a21117daad09c5/6.png)
 
 **Output for the Code**
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/414094ff110353c75830b40a7287b8be/7.png)
 
 
-![alt text]()
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/784d4387951758f3cd71e2f606472b83/BuilderDesign_MYExample.png)
 
 
 Example code link for the above prototype is given below.
-https://gitlab.com/vr.srinidhi/retailplusrota/-/blob/master/R%20Karan%20Kumar/BuilderPattern_Example.zip
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/BuilderPattern
+
+
+
 
 
 
