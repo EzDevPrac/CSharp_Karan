@@ -70,7 +70,7 @@
 
 **Below link is available for the Git to get the sample code**
 
-!https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
 
 
 
