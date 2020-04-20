@@ -197,6 +197,86 @@ In this pattern a request is wrapped under an object as a command and passed to 
  https://github.com/EzDevPrac/CSharp_Karan/tree/master/CommandPattern
 
 
+## Facade Design Pattern
+
+1.  Facade design pattern falls under the structural pattern of GOF.
+2.  The Facade design pattern is particularly used when a system is very complex or difficult to understand because the system 
+    has a large number of interdependent classes
+3.  Facade pattern hides the complexities of the system and provides an interface to the client using which the client can 
+    access the system.
+4.  This pattern involves a single wrapper class which contains a set of members which are required by the client. These 
+    members access the system on behalf of the facade client and hide the implementation details.
+5.  The facade design pattern is particularly used when a system is very complex or difficult to understand because the system 
+    has a large number of interdependent classes or its source code is unavailable.
+
+**UML Diagram**
+
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/4c5587d422918685353b89920bbe8ef7/Screenshot__89_.png)
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+
+**Complex System**
+A library of subsystems.
+
+**SubsystemA, SubsystemB, SubsystemC**
+These are classes within a complex system and offer detailed operations.
+
+**Façade**
+This is a wrapper class which wrapper class which contains a set of members which are required by the client.
+
+**Client**
+This is a class which calls the high-level operations in the Façade.
+
+**Code Snippet**
+
+1.  Subsystem Class for System Ram
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ff0403e94749fe96201251b27d7e1702/Ram.png)
+
+2.  Subsystem Class for System Processor
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/5fd729ac33ecab017a8ff6aa6c933417/Processor.png)
+
+3.  Subsystem Class for System Capacity
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/73ecbd8afcf6edc994c66ea2835fa628/Capacity.png)
+
+4.  Subsystem Class for the System Graphics
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/10aca8df2245daff5d9e38a7be4ed5aa/graphics.png)
+
+5.  Subsystem Class for the System USB configuration
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/b137dba2c45fd2711813ca8115a1ba42/UAB.png)
+
+6.  The Facade Class to create the System
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8fd398e4bc6cbaf8da120cbc47f662ab/Facade.png)
+
+7. The Main client Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e17db8896aea446dd1e8594033058c33/Client.png)
+
+
+**Input**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/3deaaff461e17ae9cd6f6279192c4bec/input.png)
+
+**Output**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ffaa26d92cad6703fefe42b990fef013/output.png)
+
+Below is the link for the working prototype of the above example
+
+
+
+
+
+
+
+
                                                                                      
  
 
