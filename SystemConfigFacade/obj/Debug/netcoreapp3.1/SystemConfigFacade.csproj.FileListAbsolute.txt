@@ -1,0 +1,13 @@
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.csprojAssemblyReference.cache
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.AssemblyInfoInputs.cache
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.AssemblyInfo.cs
+K:\MyCSharpProject\SystemConfigFacade\bin\Debug\netcoreapp3.1\SystemConfigFacade.exe
+K:\MyCSharpProject\SystemConfigFacade\bin\Debug\netcoreapp3.1\SystemConfigFacade.deps.json
+K:\MyCSharpProject\SystemConfigFacade\bin\Debug\netcoreapp3.1\SystemConfigFacade.runtimeconfig.json
+K:\MyCSharpProject\SystemConfigFacade\bin\Debug\netcoreapp3.1\SystemConfigFacade.runtimeconfig.dev.json
+K:\MyCSharpProject\SystemConfigFacade\bin\Debug\netcoreapp3.1\SystemConfigFacade.dll
+K:\MyCSharpProject\SystemConfigFacade\bin\Debug\netcoreapp3.1\SystemConfigFacade.pdb
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.dll
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.pdb
+K:\MyCSharpProject\SystemConfigFacade\obj\Debug\netcoreapp3.1\SystemConfigFacade.genruntimeconfig.cache
