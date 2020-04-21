@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R7rBHtx8uUXwC18AEdhWcRigZ0NYVBvNJ5FFTtPZ7acxpW8mKlawGKtozuoHzTwT6jVcObAb/BlEVHHmAjw1ug==",
+  "dgSpecHash": "mKD87F52Jb9yoMLE8jo4jp6Bkp9Rh8r6FwSXsftYZwNk2JdeA5Dr+X8Pca7Eezz58rOFRUh7Nvm2Aujp0rtQ5Q==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj",
+  "projectFilePath": "k:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.codecoverage\\16.6.0-preview-20200318-01\\microsoft.codecoverage.16.6.0-preview-20200318-01.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

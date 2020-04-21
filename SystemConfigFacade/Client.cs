@@ -2,12 +2,13 @@
 
 namespace SystemConfigFacade
 {
-    class Client
+    public class Client
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             SystemCreationFacade SystemCreated =new SystemCreationFacade();
             SystemCreated.SystemCreation();
+            SystemCreated.SystemDisplay();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {}
+    "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
+    "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
+        "projectUniqueName": "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
         "projectName": "BuilderPattern",
-        "projectPath": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
+        "projectPath": "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\BuilderPattern\\obj\\",
+        "outputPath": "k:\\MyCSharpProject\\BuilderPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

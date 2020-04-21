@@ -2,25 +2,19 @@ using System;
 
 namespace SystemConfigFacade
 {
-    class SystemCreationFacade
+   public class SystemCreationFacade
     {
-        SystemRam Ram;
-        SystemProcessor Processor;
-        SystemCapacity HardDiskSize;
-        SystemGraphics graphicCardType;
-        SystemUsbConfig UsbType;
+        SystemRam Ram = new SystemRam();
+        SystemProcessor Processor = new SystemProcessor();
+        SystemCapacity HardDiskSize = new SystemCapacity();
+        SystemGraphics graphicCardType = new SystemGraphics();
+        SystemUsbConfig UsbType = new SystemUsbConfig();
          
 
         public void  SystemCreation(){
-
-        Ram = new SystemRam();
-        Processor =new SystemProcessor();
-        HardDiskSize = new SystemCapacity();
-        graphicCardType = new SystemGraphics();
-        UsbType = new SystemUsbConfig();
-        
-        Console.WriteLine("Enter the Sytem Ram Size");
-        Ram.RamSize = Convert.ToInt32(Console.ReadLine());
+       
+       Console.WriteLine("Enter the Sytem Ram Size");
+       Ram.RamSize = Convert.ToInt32(Console.ReadLine());
        Console.WriteLine("Enter the Sytem Processor Type");
        Processor.Processor = Console.ReadLine();
        Console.WriteLine("Enter the Sytem  Hard Disk Capacity");
@@ -29,17 +23,17 @@ namespace SystemConfigFacade
        graphicCardType.GraphicCardType =Console.ReadLine();
        Console.WriteLine("Enter the Sytem USB Port type");
        UsbType.UsbType =Console.ReadLine();
+       Console.ReadKey();
+        }
 
-       Console.WriteLine("System Configuration of System are");
-       Console.WriteLine("Ram Size          :: " + Ram.RamSize + " GB");
-       Console.WriteLine("Processor Type    :: " + Processor.Processor);
-       Console.WriteLine("HardDisk Capacity :: " + HardDiskSize.SytemHardDiskSize + " TB");
-       Console.WriteLine("Graphic Card Type :: " + graphicCardType.GraphicCardType);
-       Console.WriteLine("USB Port Type     :: " + UsbType.UsbType);
-
-
-
-        } 
+       public void SystemDisplay(){
+       Console.WriteLine("Configuration of System is");
+       Console.WriteLine( Ram.displayRamSize());
+       Console.WriteLine( Processor.displayProcessor());
+       Console.WriteLine( HardDiskSize.displayCapacity());
+       Console.WriteLine( graphicCardType.displayGraphics());
+       Console.WriteLine( UsbType.displayUsbCofig());
+       } 
         
     }
 }

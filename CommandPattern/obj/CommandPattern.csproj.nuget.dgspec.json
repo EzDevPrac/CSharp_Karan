@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {}
+    "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {
+    "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
+        "projectUniqueName": "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
         "projectName": "CommandPattern",
-        "projectPath": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
+        "projectPath": "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\CommandPattern\\obj\\",
+        "outputPath": "k:\\MyCSharpProject\\CommandPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

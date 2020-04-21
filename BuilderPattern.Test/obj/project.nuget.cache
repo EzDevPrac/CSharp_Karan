@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/khMDSc0yI0Nrb+pFZ3D1eIWhCwDZ4vdqX9TlOaq19X/1yS2DtCmx+RGsDez18zH03EbTpRunGsNJJLKdsWETQ==",
+  "dgSpecHash": "H685gUmdAKyn3Dq0tl33K6lImIH7zJ3gBm/f7sSGW/7sDHw/X5k41ZhRd0f3hxIwm9kmvVwVBEhk5esMk6qqZA==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
+  "projectFilePath": "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.codecoverage\\16.6.0-preview-20200318-01\\microsoft.codecoverage.16.6.0-preview-20200318-01.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

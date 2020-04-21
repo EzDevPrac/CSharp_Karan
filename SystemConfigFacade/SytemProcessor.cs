@@ -2,8 +2,18 @@ using System;
 
 namespace SystemConfigFacade
 {
-    class SystemProcessor
+   public class SystemProcessor
     {
        public string Processor{get;set;}
+
+       public String displayProcessor(){
+
+
+          return "Processor     ----> " + Processor  ;
+      }
+    
     }
+
+    
 }
+

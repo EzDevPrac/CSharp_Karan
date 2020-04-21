@@ -4,9 +4,9 @@ namespace BuilderPattern{
 
 //Concrete builder for Toy A
 public class ToyABuilder: ToyBuilder {  
-    Toy toy = new Toy();  
+    public Toy toy = new Toy();  
     public void SetModel() {  
-        toy.Model = "TOY A";  
+       toy.Model = "TOY A";  
     }  
     public void SetHead() {  
         toy.Head = "1";  

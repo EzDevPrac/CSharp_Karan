@@ -2,8 +2,18 @@ using System;
 
 namespace SystemConfigFacade
 {
-    class SystemUsbConfig
+    public class SystemUsbConfig
     {
         public string UsbType{get;set;}
+
+
+        public String displayUsbCofig(){
+
+
+          return "USB COnfiguration ----> " + UsbType ;
+      }
+    
     }
+
+      
 }
