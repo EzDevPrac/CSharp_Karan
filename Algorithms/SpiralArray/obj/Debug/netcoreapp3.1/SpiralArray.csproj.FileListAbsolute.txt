@@ -1,0 +1,13 @@
+K:\MyCSharpProject\Algorithms\SpiralArray\bin\Debug\netcoreapp3.1\SpiralArray.exe
+K:\MyCSharpProject\Algorithms\SpiralArray\bin\Debug\netcoreapp3.1\SpiralArray.deps.json
+K:\MyCSharpProject\Algorithms\SpiralArray\bin\Debug\netcoreapp3.1\SpiralArray.runtimeconfig.json
+K:\MyCSharpProject\Algorithms\SpiralArray\bin\Debug\netcoreapp3.1\SpiralArray.runtimeconfig.dev.json
+K:\MyCSharpProject\Algorithms\SpiralArray\bin\Debug\netcoreapp3.1\SpiralArray.dll
+K:\MyCSharpProject\Algorithms\SpiralArray\bin\Debug\netcoreapp3.1\SpiralArray.pdb
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.csprojAssemblyReference.cache
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.AssemblyInfo.cs
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.dll
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.pdb
+K:\MyCSharpProject\Algorithms\SpiralArray\obj\Debug\netcoreapp3.1\SpiralArray.genruntimeconfig.cache

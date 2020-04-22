@@ -1,0 +1,13 @@
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.csprojAssemblyReference.cache
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.AssemblyInfoInputs.cache
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.AssemblyInfo.cs
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\bin\Debug\netcoreapp3.1\ThreadSafetySDP.exe
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\bin\Debug\netcoreapp3.1\ThreadSafetySDP.deps.json
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\bin\Debug\netcoreapp3.1\ThreadSafetySDP.runtimeconfig.json
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\bin\Debug\netcoreapp3.1\ThreadSafetySDP.runtimeconfig.dev.json
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\bin\Debug\netcoreapp3.1\ThreadSafetySDP.dll
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\bin\Debug\netcoreapp3.1\ThreadSafetySDP.pdb
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.dll
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.pdb
+K:\MyCSharpProject\SingletonDesignPattern\ThreadSafetySDP\obj\Debug\netcoreapp3.1\ThreadSafetySDP.genruntimeconfig.cache
