@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "856lqmDE7yvCDvHcPh3AtBWIUPeyE+sxSSExowLbca1uC78bcC7BBxzZ5oSytjOvghixQ0NhCz1IJiKdXbfPOg==",
+  "success": true,
+  "projectFilePath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}

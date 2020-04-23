@@ -4,7 +4,7 @@ namespace ThreadSafetySDP
 {
      public sealed class Singleton
     {
-        private static int counter = 0;     
+        private static int NoOfInstance = 0;     
         private static Singleton instance = null;  
         public static Singleton GetInstance
         {
@@ -17,8 +17,8 @@ namespace ThreadSafetySDP
         }  
         private Singleton()
         {
-            counter++;
-            Console.WriteLine("Counter Value " + counter);
+            NoOfInstance++;
+            Console.WriteLine("Instance Created = " + NoOfInstance);
         }    
         public void PrintMessage(string message)
         {
