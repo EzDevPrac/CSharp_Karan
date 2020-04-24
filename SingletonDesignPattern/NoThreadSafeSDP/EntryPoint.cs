@@ -7,9 +7,9 @@ namespace NoThreadSafeSDP
         public static void Main(string[] args)
         {
             Singleton MessageFromKaran = Singleton.GetInstance;
-            MessageFromKaran.PrintMessage("Karan says Hii");
+            Console.WriteLine(MessageFromKaran.PrintMessage("Karan says Hii"));
             Singleton MessageFromSerena = Singleton.GetInstance;
-            MessageFromSerena.PrintMessage("Serena Says bye !!");
+            Console.WriteLine(MessageFromSerena.PrintMessage("Serena Says bye !!"));
             Console.ReadLine();
         }
     }

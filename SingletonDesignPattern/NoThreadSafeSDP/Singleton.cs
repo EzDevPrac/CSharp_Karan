@@ -20,9 +20,9 @@ namespace NoThreadSafeSDP
             NoOfInstance++;
             Console.WriteLine("Instance Created = " + NoOfInstance);
         }
-        public void PrintMessage(string message)
+        public String PrintMessage(string message)
         {
-            Console.WriteLine(message);
+            return message;
         }
     }
 }

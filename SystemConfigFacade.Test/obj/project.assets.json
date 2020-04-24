@@ -5606,11 +5606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
+      "projectUniqueName": "k:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
       "projectName": "SystemConfigFacade.Test",
-      "projectPath": "K:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
+      "projectPath": "k:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "K:\\MyCSharpProject\\SystemConfigFacade.Test\\obj\\",
+      "outputPath": "k:\\MyCSharpProject\\SystemConfigFacade.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5624,8 +5624,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj": {
-              "projectPath": "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj"
+            "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj": {
+              "projectPath": "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj"
             }
           }
         }

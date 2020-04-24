@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj": {}
+    "k:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj": {
+    "k:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj",
+        "projectUniqueName": "k:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj",
         "projectName": "SpiralArray",
-        "projectPath": "K:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj",
+        "projectPath": "k:\\MyCSharpProject\\Algorithms\\SpiralArray\\SpiralArray.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\Algorithms\\SpiralArray\\obj\\",
+        "outputPath": "k:\\MyCSharpProject\\Algorithms\\SpiralArray\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

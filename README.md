@@ -3,6 +3,86 @@
 
 # DESIGN PATTERN
 
+## Singleton Design Pattern
+
+1.  Ensures a class has only one instance and provides a global point of access to it.
+2.  A singleton is a class that only allows a single instance of itself to be created and usually gives simple access to that 
+    instance.
+3.  Most commonly, singletons don't allow any parameters to be specified when creating the instance since the second request 
+    of an instance with a different parameter could be problematic! (If the same instance should be accessed for all requests 
+    with the same parameter then the factory pattern is more appropriate.)
+
+**Implementation Singleton Pattern in your code**
+
+There are many ways to implement a Singleton Pattern in C#.
+1.  No Thread Safe Singleton.
+2.  Thread-Safety Singleton.
+3.  Thread-Safety Singleton using Double-Check Locking.
+4.  Thread-Safe Singleton without using locks and no lazy instantiation.
+5.  Fully lazy instantiation.
+
+
+1. **No Thread Safe Singleton**
+ 
+Explanation of the following code:
+1.  The following code is not thread-safe.
+2.  Two different threads could both have evaluated the test (if instance == null) and found it to be true, then both create 
+    instances, which violates the singleton pattern.
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/17684ce5caeb237f5ac71ce431910a4e/Screenshot__95_.png)
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/c65977e658dd95ac6dcc76212c6b4f60/Screenshot__94_.png)
+
+So,the application will give you the following output.
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/804d45bc6e122017278167dc3633432d/Screenshot__96_.png)
+
+2.  **Thread Safety Singleton**
+ 
+Here, within the main method, we use Parallel.Invoke method to invoke multiple methods parallelly, This concept is introduced in .NET Framework 4.0. 
+
+So in our example, we are using the Parallel.Invoke method to access the GetInstance property parallelly, means at the same time multiple threads are accessing the GetInstance property. The below code is not Thread-safe because the way we code here two different threads can evaluate the condition if (instance == null) at the same time and both the threads found it to be true and they both will create the instances, which violates the singleton design pattern.
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8fb691befb8bf10ec009af6d0821877f/Screenshot__98_.png)
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/772ccd23bdb5e3b419cf1655e4e56765/Screenshot__97_.png)
+
+So,the application will give you the following output.
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d1d9cec28bde50098ca0cbbb148d12d6/Screenshot__99_.png)
+
+
+3.  **Thread-Safety Singleton using Double-Check Locking**.
+
+In the Double-checked locking mechanism, first, we will check whether the instance is created or not. If not then only we will synchronize the method as shown below.
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/7d994e8346b4c9a2dcfa2d95b25957e7/Screenshot__101_.png)
+
+So,the application will give you the following output.
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cf3a5d8c2aeb75cec3b4c1ec3c1a49c4/Screenshot__102_.png)
+
+
+The below code is implemented using a singleton design pattern.
+
+## Code Snippet
+
+1.Singleton calculate Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a86a92eea79c43eaa38a58bd0a919f89/Screenshot__106_.png)
+
+2.Main Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ba73e607ed85392e52b66c25593dfeec/Screenshot__105_.png)
+
+Output of the above Code
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ee4a55264eee10b0309ed4e22f299a49/Screenshot__103_.png)
+
+Below the link for the working code for the above example is available
+
+
+
+
 
 
 ## FACTORY DESIGN PATTERN

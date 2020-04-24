@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "856lqmDE7yvCDvHcPh3AtBWIUPeyE+sxSSExowLbca1uC78bcC7BBxzZ5oSytjOvghixQ0NhCz1IJiKdXbfPOg==",
+  "dgSpecHash": "NIfPS4VdORynudvdFSEmg3hLB5EptwegkzhwDwGk7xzS/TafIrUnZ7yvCL4oZyXg2161HLf6j1Ll+OTAFBBRNg==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
+  "projectFilePath": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,13 @@
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\bin\Debug\netcoreapp3.1\CalculatorUsingSingleton.exe
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\bin\Debug\netcoreapp3.1\CalculatorUsingSingleton.deps.json
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\bin\Debug\netcoreapp3.1\CalculatorUsingSingleton.runtimeconfig.json
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\bin\Debug\netcoreapp3.1\CalculatorUsingSingleton.runtimeconfig.dev.json
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\bin\Debug\netcoreapp3.1\CalculatorUsingSingleton.dll
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\bin\Debug\netcoreapp3.1\CalculatorUsingSingleton.pdb
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.csprojAssemblyReference.cache
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.AssemblyInfoInputs.cache
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.AssemblyInfo.cs
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.dll
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.pdb
+K:\MyCSharpProject\SingletonDesignPattern\CalculatorUsingSingleton\obj\Debug\netcoreapp3.1\CalculatorUsingSingleton.genruntimeconfig.cache
