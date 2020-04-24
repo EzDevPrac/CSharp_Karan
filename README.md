@@ -80,6 +80,8 @@ Output of the above Code
 
 Below the link for the working code for the above example is available
 
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/SingletonDesignPattern/CalculatorUsingSingleton
+
 
 
 
