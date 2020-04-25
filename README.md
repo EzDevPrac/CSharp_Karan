@@ -3,6 +3,75 @@
 
 # DESIGN PATTERN
 
+## Decorator Design Pattern
+
+1.  A Decorator is a structural design pattern that allows us to extend the behavior of objects by placing these objects into 
+    a special wrapper class. 
+2.  The structure of this pattern consists of a Component class and a Concrete Component class from one part and a Decorator 
+    class and a Concrete Decorator class on the other side. The Concrete Decorator class is going to add additional behavior 
+    to our Concrete Component.
+3.  Decorator pattern provides an alternative way to inheritance for modifying the behavior of an object.
+
+**UML Diagram of the structure of the Decorator Design Pattern**
+
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a1cd09f4f686b36c1a0dcc67e3bdb857/Screenshot__108_.png)
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+**1.  Component**
+     
+This is an interface containing members that will be implemented by ConcreteClass and Decorator.
+
+**2.  ConcreteComponent**
+
+This is a class which implements the Component interface.
+
+**3.  Decorator**
+
+This is an abstract class which implements the Component interface and contains the reference to a Component instance. This class also acts as base class for all decorators for components.
+
+**4.  ConcreteDecorator**
+
+This is a class which inherits from Decorator class and provides a decorator for components.
+
+**Code Snippet**
+
+**1.  Component Interface**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/301c78936f4fdb9cd5048a22d795a8be/Component.png)
+
+**2.  Concrete Component**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/fc9fd9e0df15408770b43fb0ddcff876/ConcreteComponent.png)
+
+**3.  Decorator Class**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/61be91c748587fc837151860d9394ac2/Decorator.png)
+
+**4. Concrete Decorator**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/fc5ed004271e5aa66b3ae41ca8f3dd7b/ConcreteDecorator.png)
+
+**5.  Main Class**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/744ca6480b184c0fd6511233fe3df362/Screenshot__113_.png)
+
+**INPUT**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/46bd0ab368f93078a735722dd2aae5bf/input.png)
+
+**OUTPUT**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/73632082a378f659d333ec363128f96f/Output.png)
+
+Code for the Above snippet is available in the following link
+
+
+
+
+
+
 ## Singleton Design Pattern
 
 1.  Ensures a class has only one instance and provides a global point of access to it.

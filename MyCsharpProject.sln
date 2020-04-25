@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUsingSingleton.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoThreadSafetySDP.Test", "SingletonDesignPattern.Test\NoThreadSafetySDP.Test\NoThreadSafetySDP.Test.csproj", "{74B12A35-F971-4275-8849-6F417DB31983}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{C6195CD1-30E1-436D-82B6-D18AB617CC09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,18 @@ Global
 		{74B12A35-F971-4275-8849-6F417DB31983}.Release|x64.Build.0 = Release|Any CPU
 		{74B12A35-F971-4275-8849-6F417DB31983}.Release|x86.ActiveCfg = Release|Any CPU
 		{74B12A35-F971-4275-8849-6F417DB31983}.Release|x86.Build.0 = Release|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Debug|x64.Build.0 = Debug|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Debug|x86.Build.0 = Debug|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Release|x64.ActiveCfg = Release|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Release|x64.Build.0 = Release|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Release|x86.ActiveCfg = Release|Any CPU
+		{C6195CD1-30E1-436D-82B6-D18AB617CC09}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{419AE64A-6957-4EC0-8814-A209411B307B} = {B6A1F0AB-B1D8-4AA6-AF15-FE093304B428}

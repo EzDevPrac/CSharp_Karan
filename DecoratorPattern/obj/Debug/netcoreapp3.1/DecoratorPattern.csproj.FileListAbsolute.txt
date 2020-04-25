@@ -1,0 +1,13 @@
+K:\MyCSharpProject\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.exe
+K:\MyCSharpProject\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.deps.json
+K:\MyCSharpProject\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.runtimeconfig.json
+K:\MyCSharpProject\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.dll
+K:\MyCSharpProject\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.pdb
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.AssemblyInfo.cs
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.dll
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.pdb
+K:\MyCSharpProject\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.genruntimeconfig.cache
