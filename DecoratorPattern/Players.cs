@@ -4,48 +4,64 @@ namespace DecoratorPattern{
 
 //Concrete Component
 public class Players:IPlayer{
-   public int _BallsPlayed;
-   public   int _TotalRunsScored;
-   public String GetPlayerName(){
-   
-   Console.WriteLine("Enter the player  name :");
-   string  PlayerName = Console.ReadLine();
-   return  PlayerName;
+   public int _BallsPlayed,_PlayerAge,_TotalRunsScored;
+   public string _PlayerName;
+
+   public float _StrikeRate;
+   public String PlayerName{
+   get{
+   return  _PlayerName;
    }
-   public int GetTotalBallsPlayed{
+   set {
+         
+     _PlayerName =value;
+   }   
+   }
+   public int TotalBallsPlayed{
   
     get{ 
-        Console.WriteLine("Enter the no of Balls Faced by the player");
-       _BallsPlayed = Convert.ToInt16(Console.ReadLine());
         return _BallsPlayed;}
 
-    set {}    
+    set {
+
+         _BallsPlayed =value;}    
     }
 
-   public int GetTotalRunsScored{
+   public int TotalRunsScored{
        get{
-   Console.WriteLine("Enter the total runs Scored");
-  _TotalRunsScored = Convert.ToInt16(Console.ReadLine());
+           return _TotalRunsScored;}
+       set{
+           _TotalRunsScored = value;
+       }    
+   }
    
-   return _TotalRunsScored;}
-   }
-   public int GetPlayerAge(){
+   public int PlayerAge{
+         get{       
+           return _PlayerAge;}
+        set{
+           _PlayerAge = value;} 
+   }         
+   public float PlayerStrikeRate{
+       get{
+       _StrikeRate = (_TotalRunsScored/_BallsPlayed)*100;
 
-       Console.WriteLine("Enter the Player Age");
-       int PlayerAge = Convert.ToInt16(Console.ReadLine());
-      
-      return PlayerAge;
-   }
-   public double GetPlayerStrikeRate(){
-       
-       double strikeRate = (_TotalRunsScored/_BallsPlayed)*100;
+       return _StrikeRate;}
 
-       return strikeRate; 
+       set{}
+    }
+
+    public void GetDetails(){
+    
+    Console.WriteLine("Enter the player  name :");
+     _PlayerName = Console.ReadLine();
+    Console.WriteLine("Enter the no of Balls Faced by the player");
+     _BallsPlayed = Convert.ToInt16(Console.ReadLine());
+    Console.WriteLine("Enter the total runs Scored");
+     _TotalRunsScored = Convert.ToInt16(Console.ReadLine());
+    Console.WriteLine("Enter the Player Age");
+     _PlayerAge = Convert.ToInt16(Console.ReadLine());
     }
     
 
 }
-
-
-
 }

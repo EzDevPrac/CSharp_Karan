@@ -4,12 +4,12 @@ namespace DecoratorPattern
 { //component interface
     public interface IPlayer{
 
-        string GetPlayerName();
-        int GetPlayerAge();
+        string PlayerName{get;set;}
+        int PlayerAge{get;set;}
 
-        double GetPlayerStrikeRate();
-        int GetTotalBallsPlayed{get;set;}
-        int GetTotalRunsScored{get;}
+        float PlayerStrikeRate{get;set;}
+        int TotalBallsPlayed{get;set;}
+        int TotalRunsScored{get; set;}
 
 
 

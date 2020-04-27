@@ -4,39 +4,43 @@ namespace DecoratorPattern{
 //Decorator Class
 public abstract class PlayerInfo:IPlayer{
 
-private IPlayer _IPlayer;
+        private IPlayer _IPlayer;
 
-public PlayerInfo(IPlayer player)
+        public PlayerInfo(IPlayer player)
 {
 
     this._IPlayer = player;
-}public virtual string GetPlayerName(){
+}
+        public virtual string PlayerName{
 
-    return this._IPlayer.GetPlayerName();
+   get{
+    return this._IPlayer.PlayerName;}
+   set{}
 }
 
-public virtual int GetPlayerAge(){
-
-    return this._IPlayer.GetPlayerAge();
+        public virtual int PlayerAge{
+   get{
+    return this._IPlayer.PlayerAge;}
+   set{}
 }
 
-public virtual int GetTotalBallsPlayed{
+        public virtual int TotalBallsPlayed{
     get{
-
-    return this._IPlayer.GetTotalBallsPlayed;}
-
+    return this._IPlayer.TotalBallsPlayed;}
     set{}
     
 }
-public virtual int GetTotalRunsScored{
+        public virtual int TotalRunsScored{
   get {
-    return this._IPlayer.GetTotalRunsScored;
+    return this._IPlayer.TotalRunsScored;
   }
+  set{}
 }
 
-public virtual double GetPlayerStrikeRate(){
-
-    return this._IPlayer.GetPlayerStrikeRate();
+        public virtual float PlayerStrikeRate{
+    get{
+    return this._IPlayer.PlayerStrikeRate;}
+    set{}
 }
 
 }

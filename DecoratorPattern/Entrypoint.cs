@@ -10,24 +10,18 @@ public class EntryPoint
  // Basic vehicle
  Players player1 = new Players();
  MoreDetails playerInfo = new MoreDetails(player1);
-
- String name=player1.GetPlayerName();
- int age = player1.GetPlayerAge();
- String playerType=playerInfo.PlayerType();
- int RunsScored = player1.GetTotalRunsScored;
- int BallsFaced = player1.GetTotalBallsPlayed;
- double strikeRate = player1.GetPlayerStrikeRate();
- String PlayerNationality = playerInfo.PlayerNationality();
+ player1.GetDetails();
+ playerInfo.moreDetails();
 
  
  Console.WriteLine("-------Player Information-----------------");
- Console.WriteLine("Player Name        : " + name);
- Console.WriteLine("Player Nationality : " + PlayerNationality);
- Console.WriteLine("Player Age         : " + age);
- Console.WriteLine("Player Type        : " + playerType);
- Console.WriteLine("Player Total Score : " + RunsScored);
- Console.WriteLine("Total Balls PLayed : " + BallsFaced);
- Console.WriteLine("Strike Rate        : " + strikeRate);
+ Console.WriteLine("Player Name        : " + playerInfo.PlayerName);
+ Console.WriteLine("Player Nationality : " + playerInfo.PlayerNationality);
+ Console.WriteLine("Player Age         : " + playerInfo.PlayerAge);
+ Console.WriteLine("Player Type        : " + playerInfo.PlayerType);
+ Console.WriteLine("Player Total Score : " + playerInfo.TotalRunsScored);
+ Console.WriteLine("Total Balls PLayed : " + playerInfo.TotalBallsPlayed);
+ Console.WriteLine("Strike Rate        : " + playerInfo.PlayerStrikeRate);
  Console.WriteLine("------------------------------------------");
  Console.ReadKey();
 

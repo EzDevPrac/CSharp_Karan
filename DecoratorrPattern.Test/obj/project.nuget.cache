@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "diWAiUcElihN68/mlLFCG77gIQq+hvWjRA+41iJcdvApyEDngB0PfVtWGVS6a1zWno6hwL08WVvt11UaMt5WqA==",
+  "dgSpecHash": "gHuCD/nwlLvYEsFHRRXwUcWeRkLX9LJ3cjrtF9p8pGpRJbhips3Lvi3CazwHNKVz+PQnJbcilXJpITEMxXDbjQ==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\DecoratorPattern.Test\\DecoratorPattern.Test.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\DecoratorrPattern.Test\\DecoratorrPattern.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.codecoverage\\16.6.1\\microsoft.codecoverage.16.6.1.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

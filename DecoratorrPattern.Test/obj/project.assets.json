@@ -5606,11 +5606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\MyCSharpProject\\DecoratorPattern.Test\\DecoratorPattern.Test.csproj",
-      "projectName": "DecoratorPattern.Test",
-      "projectPath": "K:\\MyCSharpProject\\DecoratorPattern.Test\\DecoratorPattern.Test.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\DecoratorrPattern.Test\\DecoratorrPattern.Test.csproj",
+      "projectName": "DecoratorrPattern.Test",
+      "projectPath": "K:\\MyCSharpProject\\DecoratorrPattern.Test\\DecoratorrPattern.Test.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "K:\\MyCSharpProject\\DecoratorPattern.Test\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\DecoratorrPattern.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
