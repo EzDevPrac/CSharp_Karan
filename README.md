@@ -3,6 +3,73 @@
 
 # DESIGN PATTERN
 
+## Observer Design Pattern
+
+**Observer Design Pattern**
+
+1.  Observer design pattern should "Define a one-to-many dependency between objects so that when one object changes state, all 
+    its dependents are notified and updated automatically"
+2.  The two important key terms in the pattern are the Subject and the Observer.
+    
+    *  **Subject**: The Subject is the object which holds the value and takes responsibility in notifying the observers when 
+                    the value is changed. The subject could be a database change, property change or so.
+    *  **Observer**: The Observer is the object listening to the subject's change. Basically it will be having its own 
+                     updating/calculating routine that runs when get notified.
+3.  There will be only one Subject and multiple number of Observers.
+4.  Observer Design Pattern falls under Behavioral Pattern
+
+**UML diagram for the Observer Design Pattern**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/00059177a99f82531af196741aa499b6/Screenshot__116_.png)
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+1.  **Subject**
+This is a class that contains a private collection of the observers that are subscribed to a subject for notification by using Notify operation.
+
+2.  **ConcreteSubject**
+This is a class that maintains its own state. When a change is made to its state, the object calls the base class's Notify operation to indicate this to all of its observers.
+
+3.  **Observer**
+This is an interface which defines an operation Update, which is to be called when the subject's state changes.
+
+4.  **ConcreteObserver**
+This is a class that implements the Observer interface and examines the subject to determine which information has changed.
+
+**Code Snippet**
+
+1.  Subject Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/70ebedad15d1e2e46d8235bd0de54178/Subject.png)
+
+2.  Concrete Subject Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d38996ada1633e49824cd5577f7e55aa/ConcreteSubject.png)
+
+3.  Observer Interface
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d98b85f85fd669f4df709f4dec7a431e/Observer.png)
+
+4.  Concrete Observer Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/55333be395abc0c2d2c80853cdc90c0b/ConcreteObserver.png)
+
+5.  Main Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/949f0ee1c0f9f0cf1d0d43fbe006d444/MainClass.png)
+
+**INPUT**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ee3c95498bb2442225952001b9573bfe/Input.png)
+
+**OUTPUT**
+ 
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a35de44573a8044d2b0367405e060313/Screenshot__118_.png)
+
+
+Below Link is available for the above code Snippet
+
+
 ## Decorator Design Pattern
 
 1.  A Decorator is a structural design pattern that allows us to extend the behavior of objects by placing these objects into 

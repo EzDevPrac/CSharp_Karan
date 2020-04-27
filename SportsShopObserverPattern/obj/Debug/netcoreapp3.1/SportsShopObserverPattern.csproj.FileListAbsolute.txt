@@ -1,0 +1,13 @@
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.AssemblyInfo.cs
+K:\MyCSharpProject\SportsShopObserverPattern\bin\Debug\netcoreapp3.1\SportsShopObserverPattern.exe
+K:\MyCSharpProject\SportsShopObserverPattern\bin\Debug\netcoreapp3.1\SportsShopObserverPattern.deps.json
+K:\MyCSharpProject\SportsShopObserverPattern\bin\Debug\netcoreapp3.1\SportsShopObserverPattern.runtimeconfig.json
+K:\MyCSharpProject\SportsShopObserverPattern\bin\Debug\netcoreapp3.1\SportsShopObserverPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\SportsShopObserverPattern\bin\Debug\netcoreapp3.1\SportsShopObserverPattern.dll
+K:\MyCSharpProject\SportsShopObserverPattern\bin\Debug\netcoreapp3.1\SportsShopObserverPattern.pdb
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.dll
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.pdb
+K:\MyCSharpProject\SportsShopObserverPattern\obj\Debug\netcoreapp3.1\SportsShopObserverPattern.genruntimeconfig.cache

@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "K:\\MyCSharpProject\\SportsShopObserverPattern.Test\\SportsShopObserverPattern.Test.csproj": {}
+  },
+  "projects": {
+    "K:\\MyCSharpProject\\SportsShopObserverPattern.Test\\SportsShopObserverPattern.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\MyCSharpProject\\SportsShopObserverPattern.Test\\SportsShopObserverPattern.Test.csproj",
+        "projectName": "SportsShopObserverPattern.Test",
+        "projectPath": "K:\\MyCSharpProject\\SportsShopObserverPattern.Test\\SportsShopObserverPattern.Test.csproj",
+        "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
+        "outputPath": "K:\\MyCSharpProject\\SportsShopObserverPattern.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "K:\\MyCSharpProject\\SportsShopObserverPattern\\SportsShopObserverPattern.csproj": {
+                "projectPath": "K:\\MyCSharpProject\\SportsShopObserverPattern\\SportsShopObserverPattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\MyCSharpProject\\SportsShopObserverPattern\\SportsShopObserverPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\MyCSharpProject\\SportsShopObserverPattern\\SportsShopObserverPattern.csproj",
+        "projectName": "SportsShopObserverPattern",
+        "projectPath": "K:\\MyCSharpProject\\SportsShopObserverPattern\\SportsShopObserverPattern.csproj",
+        "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
+        "outputPath": "K:\\MyCSharpProject\\SportsShopObserverPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
