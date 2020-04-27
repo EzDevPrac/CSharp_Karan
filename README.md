@@ -67,6 +67,8 @@ This is a class which inherits from Decorator class and provides a decorator for
 
 Code for the Above snippet is available in the following link
 
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/DecoratorPattern
+
 
 
 
