@@ -3,6 +3,64 @@
 
 # DESIGN PATTERN
 
+## Strategy Design Pattern
+
+1.  Strategy Design Pattern falls under Behavioral Pattern.
+2.  This pattern allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple way to 
+    access it.
+3.  Strategy Design Pattern involves the removal of an algorithm from its host class and putting it in a separate class. As 
+    you know, there may be multiple strategies which are applicable for a given problem.
+
+**UML diagram for the Strategy Design Pattern  is given Below**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/4dee4d9c7c262a115975a7b5ba38d11f/Screenshot__124_.png)
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+**1.  Context**
+This is a class that contains a property to hold the reference of a Strategy object. This property will be set at run-time according to the algorithm that is required.
+
+**2.  Strategy**
+This is an interface that is used by the Context object to call the algorithm defined by a ConcreteStrategy.
+
+**3.  ConcreteStrategyA/B**
+These are classes that implement the Strategy interface.
+
+**CODE SNIPPET**
+
+1.  Strategy Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/619b1f1912fc03e467eb438d8aeb2327/Strategy.png)
+
+2.  Concrete Strategy class for PhonePe
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/676c0e20b47ac8b27116ef1bad13dbe9/Concrete_phonepay.png)
+
+3.  Concrete Strategy Class for Paytm
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8d53b16ff8e82883c3bd40bcd6837b5b/Concrete_Paytm.png)
+
+4.  Concrete Strategy Class for Google pay
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/862b865527d4d149a6bc78510c4d8baa/Concrete_google_pay.png)
+
+5.  Context class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/09872efb4aab8f78a53a600ae2d0bd4e/Context.png)
+
+6.  Main Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ae909c1e9ec0bd42c37ad48fc85f525c/MainClass.png)
+
+**INPUT AND OUTPUT**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/15aa9a5a1a5db79e2146cbcaf8dc625c/Output.png)
+
+Code for the above code snippet is available in the following link
+
+
+
+
 ## Observer Design Pattern
 
 **Observer Design Pattern**
@@ -199,9 +257,7 @@ So,the application will give you the following output.
 
 ![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cf3a5d8c2aeb75cec3b4c1ec3c1a49c4/Screenshot__102_.png)
 
-
 The below code is implemented using a singleton design pattern.
-
 ## Code Snippet
 
 1.Singleton calculate Class

@@ -1,0 +1,13 @@
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\bin\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.exe
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\bin\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.deps.json
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\bin\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.runtimeconfig.json
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\bin\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\bin\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.dll
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\bin\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.pdb
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.AssemblyInfo.cs
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.dll
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.pdb
+K:\MyCSharpProject\OnlinePaymentStrategyPattern\obj\Debug\netcoreapp3.1\OnlinePaymentStrategyPattern.genruntimeconfig.cache
