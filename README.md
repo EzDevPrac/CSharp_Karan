@@ -3,6 +3,77 @@
 
 # DESIGN PATTERN
 
+## Itterator Design Pattern
+
+1.  Iterator Design Pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns.
+2.  Iterator Design Pattern provides a way to access the elements of a collection object in a sequential manner without 
+    knowing its underlying structure.
+3.  This pattern is commonly used in the menu systems of many applications such as Editor, IDE, etc.
+4.  The idea is that we'll have a class (the "Iterator") which contains a reference to a corresponding aggregate object, and 
+    that Iterator can traverse over its aggregate to retrieve individual objects.
+
+
+
+**UML DIAGRAM**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/6061d7e5505e701c07d2a99c1cb2c3d7/Screenshot__132_.png)
+
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+**1.  Client**
+This is the class that contains an object collection and uses the Next operation of the iterator to retrieve items from the aggregate in an appropriate sequence.
+
+**2.  Iterator**
+This is an interface that defines operations for accessing the collection elements in a sequence.
+
+**3.  ConcreteIterator**
+This is a class that implements the Iterator interface.
+
+**4.  Aggregate**
+This is an interface which defines an operation to create an iterator.
+
+**5.  ConcreteAggregate**
+This is a class that implements an Aggregate interface.
+
+**Code Snippet**
+
+1.  Aggregate Interface
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/c820e220b8b7ac7fa215612a3abc9e63/Aggregate.png)
+
+2.  Collection Class
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/671298b35a66f87d321ecaa2f7024241/Collection.png)
+
+3.  Concrete Aggregate
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/370fb64768d8e7c2ed206a71101ebac8/ConcreteAggregate.png)
+
+
+4.  Iterttor
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8325eb1b2b99eb7d9f3008e46500176f/Iterrator.png)
+
+
+5.  Concrete Itterator
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/725fdd6ee640751b6e9ca1691bf7dd6d/ConcreteItterstor.png)
+
+
+6.  Main Menu
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/9a03d871db36ef446e630ccbc75a09ea/MainMenu.png)
+
+
+**OUTPUT**
+
+![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e704ef85fc1e56007443f5a86b4d54dc/output.png)
+
+
+Link for the example code for the above code snippet
+
+
 ## Strategy Design Pattern
 
 1.  Strategy Design Pattern falls under Behavioral Pattern.

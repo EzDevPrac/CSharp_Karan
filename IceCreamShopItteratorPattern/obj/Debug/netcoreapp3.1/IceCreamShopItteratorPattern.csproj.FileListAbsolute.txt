@@ -1,0 +1,13 @@
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.AssemblyInfo.cs
+K:\MyCSharpProject\IceCreamShopItteratorPattern\bin\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.exe
+K:\MyCSharpProject\IceCreamShopItteratorPattern\bin\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.deps.json
+K:\MyCSharpProject\IceCreamShopItteratorPattern\bin\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.runtimeconfig.json
+K:\MyCSharpProject\IceCreamShopItteratorPattern\bin\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\IceCreamShopItteratorPattern\bin\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.dll
+K:\MyCSharpProject\IceCreamShopItteratorPattern\bin\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.pdb
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.dll
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.pdb
+K:\MyCSharpProject\IceCreamShopItteratorPattern\obj\Debug\netcoreapp3.1\IceCreamShopItteratorPattern.genruntimeconfig.cache
