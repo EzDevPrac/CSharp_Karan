@@ -1,0 +1,13 @@
+K:\MyCSharpProject\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.exe
+K:\MyCSharpProject\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.deps.json
+K:\MyCSharpProject\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.runtimeconfig.json
+K:\MyCSharpProject\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.runtimeconfig.dev.json
+K:\MyCSharpProject\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.dll
+K:\MyCSharpProject\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.pdb
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.AssemblyInfo.cs
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.dll
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.pdb
+K:\MyCSharpProject\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.genruntimeconfig.cache

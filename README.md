@@ -3,6 +3,64 @@
 
 # DESIGN PATTERN
 
+## Prototype Design Pattern
+
+1.  Prototype pattern falls under Creational Pattern of Gang of Four (GOF) Design Patterns
+2.  Prototype design pattern is used to create a duplicate object or clone of the current object to enhance performance. This pattern    
+    is used when the creation of an object is costly or complex.
+3.  This pattern is particularly useful for creating lots of instances of an object, all of which share some or all of their values.
+4.  Prototype pattern solves problem related with duplicating a class in C#. There are scenarios in our programs where we want to copy   
+    any object and proceed independently with the copied object without affecting the original object.In C#, classes are reference type, so if you will copy the class object to another empty object and change the one object then it will also effect the other object, which is not desirable.    
+
+**Difference between Shadow and Deep Cloning**
+
+1.  The cloning falls under two categories: shallow and deep.
+A shallow copy copies all reference types or value types, but it does not copy the objects that the references refer to. The references in the new object point to the same objects that the references in the original object points to.
+(Only Parent Object is cloned here).
+ 
+2.  In contrast, a deep copy of an object copies the elements and everything directly or indirectly referenced by the elements.
+(Parent Object is cloned along with the containing objects)
+
+**UML DIAGRAM**
+
+[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/UMl%20Diagram.png)
+
+Participants in above UML diagram are:
+
+**1.  IPrototype**: Interface that is used for the Prototypes (objects) to clone itself
+
+**2.  ConcretePrototype1, ConcretePrototype2**: Implements IPrototype interface
+
+**3.  Client:** Client class will make clones of different objects
+
+
+**Code Snippet**
+
+**1.  Prototype Interface**
+
+[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Prototype.png)
+
+**2.  Student Concrete Prototype**
+
+[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Student.png)
+
+**3.  Employee Concrete Prorotype**
+
+[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Employee.png)
+
+**4.  Client**
+
+[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Client.png)
+
+**Output**
+
+[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Output.png)
+
+Code for the above snippet is available in the following link.
+
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/PrototypePattern
+
+
 ## Itterator Design Pattern
 
 1.  Iterator Design Pattern falls under Behavioral Pattern of Gang of Four (GOF) Design Patterns.
@@ -72,6 +130,8 @@ This is a class that implements an Aggregate interface.
 
 
 Link for the example code for the above code snippet
+
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/IceCreamShopItterator
 
 
 ## Strategy Design Pattern
