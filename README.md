@@ -131,7 +131,7 @@ This is a class that implements an Aggregate interface.
 
 Link for the example code for the above code snippet
 
-https://github.com/EzDevPrac/CSharp_Karan/tree/master/IceCreamShopItterator
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/IceCreamShopItteratorPattern
 
 
 ## Strategy Design Pattern
