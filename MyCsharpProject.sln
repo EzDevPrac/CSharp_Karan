@@ -62,6 +62,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceCreamShopItteratorPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{E6BB7145-F492-40BC-A6DD-84C32FF56CFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern.Test", "PrototypePattern.Test\PrototypePattern.Test.csproj", "{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,18 @@ Global
 		{E6BB7145-F492-40BC-A6DD-84C32FF56CFF}.Release|x64.Build.0 = Release|Any CPU
 		{E6BB7145-F492-40BC-A6DD-84C32FF56CFF}.Release|x86.ActiveCfg = Release|Any CPU
 		{E6BB7145-F492-40BC-A6DD-84C32FF56CFF}.Release|x86.Build.0 = Release|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Debug|x64.Build.0 = Debug|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Debug|x86.Build.0 = Debug|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Release|x64.ActiveCfg = Release|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Release|x64.Build.0 = Release|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Release|x86.ActiveCfg = Release|Any CPU
+		{4C4A4BAD-91D3-4CD3-A42E-3792149B2ABC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{419AE64A-6957-4EC0-8814-A209411B307B} = {B6A1F0AB-B1D8-4AA6-AF15-FE093304B428}

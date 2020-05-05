@@ -23,7 +23,7 @@ A shallow copy copies all reference types or value types, but it does not copy t
 
 **UML DIAGRAM**
 
-[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/UMl%20Diagram.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/UMl%20Diagram.png)
 
 Participants in above UML diagram are:
 
@@ -38,23 +38,23 @@ Participants in above UML diagram are:
 
 **1.  Prototype Interface**
 
-[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Prototype.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Prototype.png)
 
 **2.  Student Concrete Prototype**
 
-[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Student.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Student.png)
 
 **3.  Employee Concrete Prorotype**
 
-[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Employee.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Employee.png)
 
 **4.  Client**
 
-[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Client.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Client.png)
 
 **Output**
 
-[](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Output.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Output.png)
 
 Code for the above snippet is available in the following link.
 
