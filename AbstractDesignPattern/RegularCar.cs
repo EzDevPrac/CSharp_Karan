@@ -17,7 +17,7 @@ public string Name{
  }
 public string Milage{
      get{
-         return "Regular Cars Milage :" + _Milage; 
+         return "Regular Cars Milage :" + _Milage + " Kmph"; 
      }
      set{
          _Milage = value;
