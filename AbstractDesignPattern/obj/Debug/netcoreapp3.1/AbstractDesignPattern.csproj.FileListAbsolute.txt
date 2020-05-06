@@ -1,0 +1,13 @@
+K:\MyCSharpProject\AbstractDesignPattern\bin\Debug\netcoreapp3.1\AbstractDesignPattern.exe
+K:\MyCSharpProject\AbstractDesignPattern\bin\Debug\netcoreapp3.1\AbstractDesignPattern.deps.json
+K:\MyCSharpProject\AbstractDesignPattern\bin\Debug\netcoreapp3.1\AbstractDesignPattern.runtimeconfig.json
+K:\MyCSharpProject\AbstractDesignPattern\bin\Debug\netcoreapp3.1\AbstractDesignPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\AbstractDesignPattern\bin\Debug\netcoreapp3.1\AbstractDesignPattern.dll
+K:\MyCSharpProject\AbstractDesignPattern\bin\Debug\netcoreapp3.1\AbstractDesignPattern.pdb
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.AssemblyInfo.cs
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.dll
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.pdb
+K:\MyCSharpProject\AbstractDesignPattern\obj\Debug\netcoreapp3.1\AbstractDesignPattern.genruntimeconfig.cache

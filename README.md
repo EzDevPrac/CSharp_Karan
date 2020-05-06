@@ -3,6 +3,94 @@
 
 # DESIGN PATTERN
 
+## Abstract Factory Design Pattern
+
+1.  The Abstract Factory Pattern is a creational Gang of Four (GoF) design pattern
+2.  The Abstract Factory Pattern is used when you want to return several related classes of objects, each of which can return several   
+    different objects on request
+3.  Abstract Factory patterns act a super-factory which creates other factories. This pattern is also called a Factory of factories. In  
+    Abstract Factory pattern an interface is responsible for creating a set of related objects, or dependent objects without specifying their concrete classes.
+
+**UML Diagram**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Uml.png)
+
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+**1.  AbstractFactory**
+This is an interface which is used to create abstract product
+
+**2.  ConcreteFactory**
+This is a class which implements the AbstractFactory interface to create concrete products.
+
+**3.  AbstractProduct**
+This is an interface which declares a type of product.
+
+**4.  ConcreteProduct**
+This is a class which implements the AbstractProduct interface to create a product.
+
+**5.  Client**
+This is a class which uses AbstractFactory and AbstractProduct interfaces to create a family of related objects.
+
+
+**Code Snippet**
+
+1.  Abstract Factory
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Vehicle%20Factory.png)
+
+2.  Concrete Abstract Factory for BMW Vehicles
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Bmw%20Vehicles.png)
+
+3.  Concrete Abstract Factory for Ducati Vehicales
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Ducati%20Vehicle.png)
+
+4.  Vehicle Client
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/VehicleClient.png)
+
+5.  Abstract Product For Two Wheelers
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Two%20Wheeler.png)
+
+6.  Concrete Product for Regular Two Wheelers
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Reagular%20Bike.png)
+
+7.  Concrete Product for Sports Two Wheelers
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Sports%20Bike.png)
+
+8.  Abstact Product For Four Wheelers
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Four%20Wheeler.png)
+
+9.  Concrete Product for Sports Four Wheelers
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Sports%20car.png)
+
+10.  Concrete Product for Regular Four Wheelers
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Reagular%20car.png)
+
+11.  Main Class
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/Main%20Class.png)
+
+
+**OUTPUT**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Abstract%20factory/output.png)
+
+Code for the above code snippet is avaikable in the following link
+
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/AbstractDesignPattern
+
+
+
 ## Prototype Design Pattern
 
 1.  Prototype pattern falls under Creational Pattern of Gang of Four (GOF) Design Patterns
