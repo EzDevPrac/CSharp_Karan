@@ -112,7 +112,6 @@ A shallow copy copies all reference types or value types, but it does not copy t
 **UML DIAGRAM**
 
 ![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/UMl%20Diagram.png)
-
 Participants in above UML diagram are:
 
 **1.  IPrototype**: Interface that is used for the Prototypes (objects) to clone itself
@@ -142,6 +141,7 @@ Participants in above UML diagram are:
 
 **Output**
 
+
 ![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Prototype%20Pattern/Output.png)
 
 Code for the above snippet is available in the following link.
@@ -162,8 +162,7 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/PrototypePattern
 
 **UML DIAGRAM**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/6061d7e5505e701c07d2a99c1cb2c3d7/Screenshot__132_.png)
-
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/Screenshot%20(132).png)
 
 The classes, interfaces, and objects in the above UML class diagram are as follows:
 
@@ -186,35 +185,34 @@ This is a class that implements an Aggregate interface.
 
 1.  Aggregate Interface
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/c820e220b8b7ac7fa215612a3abc9e63/Aggregate.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/Aggregate.png)
 
 2.  Collection Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/671298b35a66f87d321ecaa2f7024241/Collection.png)
+![]()
 
 3.  Concrete Aggregate
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/370fb64768d8e7c2ed206a71101ebac8/ConcreteAggregate.png)
-
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/ConcreteAggregate.png)
 
 4.  Iterttor
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8325eb1b2b99eb7d9f3008e46500176f/Iterrator.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/Iterrator.png)
 
 
 5.  Concrete Itterator
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/725fdd6ee640751b6e9ca1691bf7dd6d/ConcreteItterstor.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/ConcreteItterstor.png)
 
 
 6.  Main Menu
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/9a03d871db36ef446e630ccbc75a09ea/MainMenu.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/MainMenu.png)
 
 
 **OUTPUT**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e704ef85fc1e56007443f5a86b4d54dc/output.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Iterator%20Pattern/output.png)
 
 
 Link for the example code for the above code snippet
@@ -232,7 +230,7 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/IceCreamShopItteratorPatte
 
 **UML diagram for the Strategy Design Pattern  is given Below**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/4dee4d9c7c262a115975a7b5ba38d11f/Screenshot__124_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Screenshot%20(124).png)
 
 The classes, interfaces, and objects in the above UML class diagram are as follows:
 
@@ -249,31 +247,31 @@ These are classes that implement the Strategy interface.
 
 1.  Strategy Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/619b1f1912fc03e467eb438d8aeb2327/Strategy.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Strategy.png)
 
 2.  Concrete Strategy class for PhonePe
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/676c0e20b47ac8b27116ef1bad13dbe9/Concrete_phonepay.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Concrete%20phonepay.png)
 
 3.  Concrete Strategy Class for Paytm
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8d53b16ff8e82883c3bd40bcd6837b5b/Concrete_Paytm.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Concrete%20Paytm.png)
 
 4.  Concrete Strategy Class for Google pay
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/862b865527d4d149a6bc78510c4d8baa/Concrete_google_pay.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Concrete%20google%20pay.png)
 
 5.  Context class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/09872efb4aab8f78a53a600ae2d0bd4e/Context.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Context.png)
 
 6.  Main Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ae909c1e9ec0bd42c37ad48fc85f525c/MainClass.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/MainClass.png)
 
 **INPUT AND OUTPUT**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/15aa9a5a1a5db79e2146cbcaf8dc625c/Output.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Strategy%20Pattern/Output.png)
 
 Code for the above code snippet is available in the following link
 https://github.com/EzDevPrac/CSharp_Karan/tree/master/OnlinePaymentStrategyPattern
@@ -297,7 +295,7 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/OnlinePaymentStrategyPatte
 
 **UML diagram for the Observer Design Pattern**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/00059177a99f82531af196741aa499b6/Screenshot__116_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/Screenshot%20(116).png)
 
 The classes, interfaces, and objects in the above UML class diagram are as follows:
 
@@ -317,31 +315,31 @@ This is a class that implements the Observer interface and examines the subject 
 
 1.  Subject Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/70ebedad15d1e2e46d8235bd0de54178/Subject.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/Subject.png)
 
 2.  Concrete Subject Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d38996ada1633e49824cd5577f7e55aa/ConcreteSubject.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/ConcreteSubject.png)
 
 3.  Observer Interface
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d98b85f85fd669f4df709f4dec7a431e/Observer.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/Observer.png)
 
 4.  Concrete Observer Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/55333be395abc0c2d2c80853cdc90c0b/ConcreteObserver.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/ConcreteObserver.png)
 
 5.  Main Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/949f0ee1c0f9f0cf1d0d43fbe006d444/MainClass.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/MainClass.png)
 
 **INPUT**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ee3c95498bb2442225952001b9573bfe/Input.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/Input.png)
 
 **OUTPUT**
  
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a35de44573a8044d2b0367405e060313/Screenshot__118_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Observer%20Pattern/Screenshot%20(118).png)
 
 
 Below Link is available for the above code Snippet
@@ -359,7 +357,7 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/SportsShopObserverPattern
 **UML Diagram of the structure of the Decorator Design Pattern**
 
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a1cd09f4f686b36c1a0dcc67e3bdb857/Screenshot__108_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/Screenshot%20(108).png)
 
 The classes, interfaces, and objects in the above UML class diagram are as follows:
 
@@ -383,31 +381,31 @@ This is a class which inherits from Decorator class and provides a decorator for
 
 **1.  Component Interface**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/301c78936f4fdb9cd5048a22d795a8be/Component.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/Component.png)
 
 **2.  Concrete Component**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/fc9fd9e0df15408770b43fb0ddcff876/ConcreteComponent.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/ConcreteComponent.png)
 
 **3.  Decorator Class**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/61be91c748587fc837151860d9394ac2/Decorator.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/Decorator.png)
 
 **4. Concrete Decorator**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/fc5ed004271e5aa66b3ae41ca8f3dd7b/ConcreteDecorator.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/ConcreteDecorator.png)
 
 **5.  Main Class**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/744ca6480b184c0fd6511233fe3df362/Screenshot__113_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/Screenshot%20(113).png)
 
 **INPUT**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/46bd0ab368f93078a735722dd2aae5bf/input.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/input.png)
 
 **OUTPUT**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/73632082a378f659d333ec363128f96f/Output.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Decorator%20pattern/Output.png)
 
 Code for the Above snippet is available in the following link
 
@@ -444,12 +442,13 @@ Explanation of the following code:
 2.  Two different threads could both have evaluated the test (if instance == null) and found it to be true, then both create 
     instances, which violates the singleton pattern.
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/17684ce5caeb237f5ac71ce431910a4e/Screenshot__95_.png)
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/c65977e658dd95ac6dcc76212c6b4f60/Screenshot__94_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/NoThreadSafe/Screenshot%20(95).png)
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/NoThreadSafe/Screenshot%20(94).png)
 
 So,the application will give you the following output.
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/804d45bc6e122017278167dc3633432d/Screenshot__96_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/NoThreadSafe/Screenshot%20(96).png)
 
 2.  **Thread Safety Singleton**
  
@@ -457,39 +456,40 @@ Here, within the main method, we use Parallel.Invoke method to invoke multiple m
 
 So in our example, we are using the Parallel.Invoke method to access the GetInstance property parallelly, means at the same time multiple threads are accessing the GetInstance property. The below code is not Thread-safe because the way we code here two different threads can evaluate the condition if (instance == null) at the same time and both the threads found it to be true and they both will create the instances, which violates the singleton design pattern.
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8fb691befb8bf10ec009af6d0821877f/Screenshot__98_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/ThreadSafe/Screenshot%20(98).png)
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/772ccd23bdb5e3b419cf1655e4e56765/Screenshot__97_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/ThreadSafe/Screenshot%20(97).png)
 
 So,the application will give you the following output.
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d1d9cec28bde50098ca0cbbb148d12d6/Screenshot__99_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/ThreadSafe/Screenshot%20(99).png)
 
 
 3.  **Thread-Safety Singleton using Double-Check Locking**.
 
 In the Double-checked locking mechanism, first, we will check whether the instance is created or not. If not then only we will synchronize the method as shown below.
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/7d994e8346b4c9a2dcfa2d95b25957e7/Screenshot__101_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/ThreadSafeWithDoubleCheckLock/Screenshot%20(101).png)
 
 So,the application will give you the following output.
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cf3a5d8c2aeb75cec3b4c1ec3c1a49c4/Screenshot__102_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/ThreadSafeWithDoubleCheckLock/Screenshot%20(102).png)
 
 The below code is implemented using a singleton design pattern.
+
 ## Code Snippet
 
 1.Singleton calculate Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a86a92eea79c43eaa38a58bd0a919f89/Screenshot__106_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/Calculator/Screenshot%20(106).png)
 
 2.Main Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ba73e607ed85392e52b66c25593dfeec/Screenshot__105_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/Calculator/Screenshot%20(105).png)
 
 Output of the above Code
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ee4a55264eee10b0309ed4e22f299a49/Screenshot__103_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Singleton/Calculator/Screenshot%20(103).png)
 
 Below the link for the working code for the above example is available
 
@@ -525,39 +525,39 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/SingletonDesignPattern/Cal
  **Code Snippet**
 1.  Product Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/f27fe9d985a6fd4e4fdfb4a6aaf62e7e/1.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/1.png)
 
 2.  Concrete Product Class for Platinum card:
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/01ddd633bb0614cb1316f32c9c9ce4f3/2.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/2.png)
 
 3.  Concrete Product Class for Titanium Card:
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/66a87ee8fed2b6a921df088ceabaac13/3.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/3.png)
 
 4.  Creator Class 
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e44271f429667d6bb703c382d88d226e/4.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/4.png)
 
 5.  Concrete Creator class for the platinum card:
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ac664f169b1eb66364092713a926fc61/5.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/5.png)
 
 6.  Concrete Creator class for the Titanium Card
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/46328d8ac785d60ec77f807fa0bd9221/6.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/6.png)
 
 7.  Driver Class for the program:
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/c07c44293ed72a8d6b9f071037825d9c/7.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/7.png)
 
 **Input**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/671dbceab5b537339a35d5760ad251e3/8.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/8.png)
 
 **Output**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/a55b05ae26edc20bf486138ab5af4200/9.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Credit%20card/9.png)
 
 **Code Flow for the above given example**
 
@@ -566,12 +566,6 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/SingletonDesignPattern/Cal
 **Below link is available for the Git to get the sample code**
 
 https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
-
-
-
-
-
-
 
 
 ## BUILDER DESIGN PATTERN:
@@ -593,31 +587,31 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
 
 1.  Toy Builder Interface
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/6e9be32e53f72b46fc18a0519a342359/1.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/1.png)
 
 2.  Product Class 
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/08ad58d6d976d09927cd9cafa08b4206/2.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/2.png)
 
 3.  Concrete Builder for the Toy A 
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/aa1b44d85b4da2b91dc7e8831cc5f0bf/3.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/3.png)
 
 4.  Concrete Builder for the Toy B
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cb1b1414f3e845d44e17c4e1895d75ca/4.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/4.png)
 
 5.  Director Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/b7d08a0e980845b5c1e38babea1f6c60/5.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/5.png)
 
 6.  Main Class for the program
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/06dd027bb4147864e0a21117daad09c5/6.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/6.png)
 
 **Output for the Code**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/414094ff110353c75830b40a7287b8be/7.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Builder%20Design/7.png)
 
 
 ![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/784d4387951758f3cd71e2f606472b83/BuilderDesign_MYExample.png)
@@ -625,14 +619,6 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/CreditCard
 
 Example code link for the above prototype is given below.
 https://github.com/EzDevPrac/CSharp_Karan/tree/master/BuilderPattern
-
-
-
-
-
-
-
-
 
 ## Command Design Pattern:
 
@@ -644,6 +630,7 @@ In this pattern a request is wrapped under an object as a command and passed to 
 *  UML diagram:
 
    ![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/af33d393607865a5993377b32246cf0e/Command_Uml.png)
+   
 1.  Client Class --> Creates and executes the command object
 2.  Invoker  --> Asks the command to carry out the action
 3.  Command --> This is an interface which specifies the execute operation
@@ -654,38 +641,37 @@ In this pattern a request is wrapped under an object as a command and passed to 
 
 1.  command Interface
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/0e1abbf5b46023639111642731511d23/1.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/1.png)
 
 2.  The invoker Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/504536550a3570313d48308759bc593b/2.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/2.png)
 
 3.   The Reciever Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/1a6f0531798e3c80a4624bd42b44e273/3.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/3.png)
 
 4.   Concrete Command for addition
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/cecb15fffd0d9571613fc275e9a5a471/4.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/4.png)
 
 
 5.   Concrete Command for Subtraction
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/eb291df7b9bd61b809cda070fb09f42f/5.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/5.png)
 
 
 6.   Driver Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/06dd027bb4147864e0a21117daad09c5/6.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/6.png)
 
 
 **Input And Output**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/414094ff110353c75830b40a7287b8be/7.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/input.png)
 
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/784d4387951758f3cd71e2f606472b83/BuilderDesign_MYExample.png)
-
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Command%20Pattern/output.png)
 
 **A working Prototype of the code is available in the following link**
 
@@ -707,7 +693,7 @@ In this pattern a request is wrapped under an object as a command and passed to 
 **UML Diagram**
 
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/4c5587d422918685353b89920bbe8ef7/Screenshot__89_.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/Screenshot%20(89).png)
 
 The classes, interfaces, and objects in the above UML class diagram are as follows:
 
@@ -728,40 +714,40 @@ This is a class which calls the high-level operations in the Façade.
 
 1.  Subsystem Class for System Ram
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ff0403e94749fe96201251b27d7e1702/Ram.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/Ram.png)
 
 2.  Subsystem Class for System Processor
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/5fd729ac33ecab017a8ff6aa6c933417/Processor.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/Processor.png)
 
 3.  Subsystem Class for System Capacity
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/73ecbd8afcf6edc994c66ea2835fa628/Capacity.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/Capacity.png)
 
 4.  Subsystem Class for the System Graphics
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/10aca8df2245daff5d9e38a7be4ed5aa/graphics.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/graphics.png)
 
 5.  Subsystem Class for the System USB configuration
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/b137dba2c45fd2711813ca8115a1ba42/UAB.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/UAB.png)
 
 6.  The Facade Class to create the System
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/8fd398e4bc6cbaf8da120cbc47f662ab/Facade.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/Facade.png)
 
 7. The Main client Class
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/e17db8896aea446dd1e8594033058c33/Client.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/Client.png)
 
 
 **Input**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/3deaaff461e17ae9cd6f6279192c4bec/input.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/input.png)
 
 **Output**
 
-![](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/ffaa26d92cad6703fefe42b990fef013/output.png)
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/facade%20Pattern/output.png)
 
 Below is the link for the working prototype of the above example
 
