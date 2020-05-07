@@ -3,6 +3,73 @@
 
 # DESIGN PATTERN
 
+## Proxy Design Pattern
+
+1.  Proxy Design pattern falls under Structural Pattern of Gang of Four (GOF) Design Patterns
+2.  The proxy design pattern is used to provide a surrogate object, which references to other objects. 
+3.  The proxy pattern involves a class, called proxy class, which represents the functionality of another class.
+
+
+**UML Diagram**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/UML.png)
+
+The classes, interfaces, and objects in the above UML class diagram are as follows:
+
+**1.  Subject**
+This is an interface having members that will be implemented by RealSubject and Proxy class.
+
+**2.  RealSubject**
+This is a class which we want to use more efficiently by using proxy class.
+
+**3.  Proxy**
+This is a class which holds the instance of RealSubject class and can access RealSubject class members as required.
+
+
+**There are various kinds of proxies, some of them are as follows:**
+
+1.  Virtual proxies: Hand over the creation of an object to another object
+
+2.  Authentication proxies: Checks the access permissions for a request
+
+3.  Remote proxies: Encodes requests and send them across a network
+
+4.  Smart proxies: Change requests before sending them across a network
+
+
+**Code Snippet**
+
+1.  Bank Interface
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/IBank.png)
+
+2.  Bank Class That Implements  Bank
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/Bank1.png)
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/Bank2.png)
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/Bank3.png)
+
+3.  Atm Class(Proxy)
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/Atm.png)
+
+4.  Client Class
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/Client.png)
+
+**OUTPUT**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/Proxy%20Pattern/output.png)
+
+
+Code for the above code snippet is available in the following link
+
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/ProxyDesignPattern
+
+
+
 ## Abstract Factory Design Pattern
 
 1.  The Abstract Factory Pattern is a creational Gang of Four (GoF) design pattern

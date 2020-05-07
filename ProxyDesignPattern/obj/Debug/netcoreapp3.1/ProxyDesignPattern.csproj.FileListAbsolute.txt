@@ -1,0 +1,13 @@
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.csprojAssemblyReference.cache
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.AssemblyInfo.cs
+K:\MyCSharpProject\ProxyDesignPattern\bin\Debug\netcoreapp3.1\ProxyDesignPattern.exe
+K:\MyCSharpProject\ProxyDesignPattern\bin\Debug\netcoreapp3.1\ProxyDesignPattern.deps.json
+K:\MyCSharpProject\ProxyDesignPattern\bin\Debug\netcoreapp3.1\ProxyDesignPattern.runtimeconfig.json
+K:\MyCSharpProject\ProxyDesignPattern\bin\Debug\netcoreapp3.1\ProxyDesignPattern.runtimeconfig.dev.json
+K:\MyCSharpProject\ProxyDesignPattern\bin\Debug\netcoreapp3.1\ProxyDesignPattern.dll
+K:\MyCSharpProject\ProxyDesignPattern\bin\Debug\netcoreapp3.1\ProxyDesignPattern.pdb
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.dll
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.pdb
+K:\MyCSharpProject\ProxyDesignPattern\obj\Debug\netcoreapp3.1\ProxyDesignPattern.genruntimeconfig.cache
