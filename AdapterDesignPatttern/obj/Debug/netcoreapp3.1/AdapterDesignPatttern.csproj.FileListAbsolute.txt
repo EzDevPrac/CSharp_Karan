@@ -1,0 +1,13 @@
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.csprojAssemblyReference.cache
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.AssemblyInfoInputs.cache
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.AssemblyInfo.cs
+K:\MyCSharpProject\AdapterDesignPatttern\bin\Debug\netcoreapp3.1\AdapterDesignPatttern.exe
+K:\MyCSharpProject\AdapterDesignPatttern\bin\Debug\netcoreapp3.1\AdapterDesignPatttern.deps.json
+K:\MyCSharpProject\AdapterDesignPatttern\bin\Debug\netcoreapp3.1\AdapterDesignPatttern.runtimeconfig.json
+K:\MyCSharpProject\AdapterDesignPatttern\bin\Debug\netcoreapp3.1\AdapterDesignPatttern.runtimeconfig.dev.json
+K:\MyCSharpProject\AdapterDesignPatttern\bin\Debug\netcoreapp3.1\AdapterDesignPatttern.dll
+K:\MyCSharpProject\AdapterDesignPatttern\bin\Debug\netcoreapp3.1\AdapterDesignPatttern.pdb
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.dll
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.pdb
+K:\MyCSharpProject\AdapterDesignPatttern\obj\Debug\netcoreapp3.1\AdapterDesignPatttern.genruntimeconfig.cache

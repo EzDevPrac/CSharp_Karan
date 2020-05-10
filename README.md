@@ -3,6 +3,63 @@
 
 # DESIGN PATTERN
 
+## Adapter Design Pattern
+
+1.  Adapter design pattern falls under structural design pattern category of Gang of four (GoF) design patterns.
+2.  Adapter design pattern enables a system to use classes of another system that is incompatible with each other.
+3.  Adapter design pattern allows a system to use classes whose interfaces are mutually incompatible. Adapter design pattern provides    
+    the bridge or connection between these mutually incompatible interfaces. This pattern is useful for off-the-self code, toolkits and libraries.
+
+**UML DIAGRAM**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/UML.png)
+
+Client and Adaptee classes are incompatible with each other. Client calls ITarget interface to achieve functionality of Adaptee class.
+
+Participants in above UML diagram are:
+
+**1.  Client:** This is the class which is incompatible with Adaptee class but wants to use Adaptee class code
+
+**2.  ITarget:** The interface that client class uses to achieve Adaptee class functionality.
+
+**3.  Adapter:** This class implements ITarget interface; this class also calls Adaptee class functionality inside.
+
+**4.  Adaptee:** This is the class which Client class want to use.
+
+**Code Snippet**
+
+**1.  Target Interface**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/Target.png)
+
+**2.  Adapter Class**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/Adapter.png)
+
+**3.  Adaptee Class**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/Adaptee.png)
+
+
+**4.  Client Class**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/Client.png)
+
+
+**5. Main Class**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/MainCalss.png)
+
+
+**Output**
+
+![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/output.png)
+
+
+Code for the above Code snippet is available in the following link
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/AdapterDesignPatttern
+
+
 ## Proxy Design Pattern
 
 1.  Proxy Design pattern falls under Structural Pattern of Gang of Four (GOF) Design Patterns
@@ -67,7 +124,6 @@ This is a class which holds the instance of RealSubject class and can access Rea
 Code for the above code snippet is available in the following link
 
 https://github.com/EzDevPrac/CSharp_Karan/tree/master/ProxyDesignPattern
-
 
 
 ## Abstract Factory Design Pattern
