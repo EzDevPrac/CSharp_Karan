@@ -13,7 +13,6 @@
 **UML DIAGRAM**
 
 ![](https://github.com/KaranKumar1927/Code-ScreenShots/blob/master/Code%20ScreenShots/AdapterDesignPattern/UML.png)
-
 Client and Adaptee classes are incompatible with each other. Client calls ITarget interface to achieve functionality of Adaptee class.
 
 Participants in above UML diagram are:
