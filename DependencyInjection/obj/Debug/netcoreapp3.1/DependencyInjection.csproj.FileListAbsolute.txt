@@ -1,0 +1,15 @@
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csprojAssemblyReference.cache
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfoInputs.cache
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfo.cs
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.exe
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.deps.json
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.json
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.dev.json
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.dll
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.pdb
+K:\MyCSharpProject\DependencyInjection\bin\Debug\netcoreapp3.1\Autofac.dll
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csproj.CopyComplete
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.dll
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.pdb
+K:\MyCSharpProject\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.genruntimeconfig.cache

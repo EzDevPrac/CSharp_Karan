@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PMkTTr5sTOU62zHa/yNDqiA1oxNqj49Pdz1ZmT7oiFBX1RlTfx4QePUPLgNNfSraeRdl27twh+tTuHFXiuHgPA==",
+  "success": true,
+  "projectFilePath": "K:\\MyCSharpProject\\DependencyInjection\\DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akash\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

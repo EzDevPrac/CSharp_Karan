@@ -74,6 +74,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDesignPattern.Test", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPatttern", "AdapterDesignPatttern\AdapterDesignPatttern.csproj", "{69EEE18E-D4C3-43AC-BC80-7ADCDD9B7B5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{ED28BB56-490D-4347-B840-434E02913529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,18 @@ Global
 		{69EEE18E-D4C3-43AC-BC80-7ADCDD9B7B5E}.Release|x64.Build.0 = Release|Any CPU
 		{69EEE18E-D4C3-43AC-BC80-7ADCDD9B7B5E}.Release|x86.ActiveCfg = Release|Any CPU
 		{69EEE18E-D4C3-43AC-BC80-7ADCDD9B7B5E}.Release|x86.Build.0 = Release|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Debug|x64.Build.0 = Debug|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Release|x64.ActiveCfg = Release|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Release|x64.Build.0 = Release|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED28BB56-490D-4347-B840-434E02913529}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{419AE64A-6957-4EC0-8814-A209411B307B} = {B6A1F0AB-B1D8-4AA6-AF15-FE093304B428}
