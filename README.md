@@ -1,6 +1,150 @@
 # C-Sharp Project Karan 
 [![Build Status](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_apis/build/status/EzDevPrac.CSharp_Karan?branchName=master)](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_build/latest?definitionId=1&branchName=master)
 
+
+# Dependency Injection
+1.  It is a software design pattern which enables the developement of loosely coupled code
+2.  Three types of DI's
+    -->Constructor injection
+    -->Setter Injection
+    -->Method Injection
+3.  High level modules should not depend on low level module,Both should depend on abstraction.
+4.  Abstraction should not depend upon details.details should depend upon abstarction.
+
+**Code Snippent**
+
+1.  Module Builder Class Which registers the dependencies
+
+```C Sharp
+using System;
+using Autofac;
+
+namespace DependencyInjection
+{
+    public class ModuleBuilder : Module
+    {
+       protected override void Load(ContainerBuilder builder)
+       {
+        builder.RegisterType<ConsoleNotification>().As<INotificationService>();
+        builder.RegisterType<UserService>().AsSelf();
+       }
+
+    }
+}
+
+```
+2.  Notification Sevice Interface
+
+```C Sharp
+using System;
+
+namespace DependencyInjection
+{
+    public interface INotificationService
+    {
+    void NotifyUserChange(string User);
+    }
+}
+```
+3.  Console notification class which implements the Notification Service
+
+```C Sharp
+using System;
+
+namespace DependencyInjection
+{
+    public class ConsoleNotification : INotificationService
+    {
+
+     public void NotifyUserChange(string NewUser)
+     {
+         Console.WriteLine("User Name has been changed to  " + NewUser);
+
+     }   
+    }
+}
+```
+
+4.  User Service Class
+
+```C Sharp
+
+using System;
+
+namespace DependencyInjection
+{
+    public class UserService
+    {
+       private INotificationService _INotificationService;
+
+       public UserService(INotificationService notifcationService)
+       {
+           _INotificationService = notifcationService;
+       }
+        public void ChangeUserName(User OldUserName, string newUserName)
+        {
+           OldUserName.UserName = newUserName;
+           _INotificationService.NotifyUserChange(OldUserName.UserName);
+
+        }
+    
+        
+    }
+}
+
+```
+
+5.  User Class which is independent
+
+```C Sharp
+
+using System;
+
+namespace DependencyInjection
+{
+    public class User
+    {
+        public string UserName{get;set;}
+        public User(string userName )
+        {
+               UserName = userName;
+               }
+        }
+}
+
+```
+6.  Main Class which shows how the dependency injection is done
+
+```C Sharp
+
+using System;
+using Autofac;
+
+namespace DependencyInjection
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var ContainerBuilder = new ContainerBuilder();
+            ContainerBuilder.RegisterModule<ModuleBuilder>();
+            var container = ContainerBuilder.Build();
+            var notificationService = container.Resolve<INotificationService>();
+            var UserService = container.Resolve<UserService>();
+              
+            var user1 = new User("Karan");
+            UserService.ChangeUserName(user1,"Karan Kumar");
+         }
+    }
+}
+
+```
+Working code for the above snippet is available in the following link
+
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/DependencyInjection
+
+
+
 # DESIGN PATTERN
 
 ## Adapter Design Pattern
