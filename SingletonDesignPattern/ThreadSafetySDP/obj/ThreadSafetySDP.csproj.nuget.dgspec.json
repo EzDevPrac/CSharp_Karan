@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj": {}
+    "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj": {
+    "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj",
         "projectName": "ThreadSafetySDP",
-        "projectPath": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj",
+        "projectPath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

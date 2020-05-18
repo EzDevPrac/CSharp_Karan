@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "K:\\MyCSharpProject\\WebApiDemo\\WebApiDemo.csproj": {}
+  },
+  "projects": {
+    "K:\\MyCSharpProject\\WebApiDemo\\WebApiDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\MyCSharpProject\\WebApiDemo\\WebApiDemo.csproj",
+        "projectName": "WebApiDemo",
+        "projectPath": "K:\\MyCSharpProject\\WebApiDemo\\WebApiDemo.csproj",
+        "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
+        "outputPath": "K:\\MyCSharpProject\\WebApiDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

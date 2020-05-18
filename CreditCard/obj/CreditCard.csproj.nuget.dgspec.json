@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {}
+    "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {
+    "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
         "projectName": "CreditCard",
-        "projectPath": "k:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
+        "projectPath": "K:\\MyCSharpProject\\CreditCard\\CreditCard.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\CreditCard\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\CreditCard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0L8yFL92rsAKfwnpz3+hMJcTL3T9duAWGBObdw9F5f58F2cq5XRy/SoWd17g/O3EPOZFBHcA8SkQq8J014htLg==",
+  "dgSpecHash": "4wqEws+gwH4zDL2zop+IrTFuKc3cOu7jMjcbaPVGC4u7UFZf6gnJ2dX1qn6FYri8xpzS/on3OI1uZ7ctLiTF4w==",
   "success": true,
-  "projectFilePath": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDP\\ThreadSafetySDP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

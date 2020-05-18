@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj": {}
+    "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj": {
+    "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
         "projectName": "ThreadSafetySDPWithDoubleCheckLocking",
-        "projectPath": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
+        "projectPath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\ThreadSafetySDPWithDoubleCheckLocking.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\SingletonDesignPattern\\ThreadSafetySDPWithDoubleCheckLocking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj": {}
+    "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj": {
+    "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj",
         "projectName": "SortingMethod",
-        "projectPath": "k:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\SortingMethod.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\Algorithms\\SortingMethod\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Algorithms\\SortingMethod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

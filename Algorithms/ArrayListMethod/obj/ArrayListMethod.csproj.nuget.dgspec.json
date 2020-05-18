@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj": {}
+    "K:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj": {
+    "K:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj",
         "projectName": "ArrayListMethod",
-        "projectPath": "k:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\ArrayListMethod.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Algorithms\\ArrayListMethod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

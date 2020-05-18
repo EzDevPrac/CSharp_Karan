@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj": {}
+    "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj": {
+    "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj",
         "projectName": "AbstractDesignPattern",
-        "projectPath": "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj",
+        "projectPath": "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\AbstractdesignPattern\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\AbstractDesignPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

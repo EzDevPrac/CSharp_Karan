@@ -5606,11 +5606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
       "projectName": "BuilderPattern.Test",
-      "projectPath": "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
+      "projectPath": "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "k:\\MyCSharpProject\\BuilderPattern.Test\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\BuilderPattern.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5624,8 +5624,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
-              "projectPath": "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj"
+            "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
+              "projectPath": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj"
             }
           }
         }

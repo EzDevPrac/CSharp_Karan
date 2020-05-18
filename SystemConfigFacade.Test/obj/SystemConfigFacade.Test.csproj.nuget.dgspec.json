@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj": {}
+    "K:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj": {
+    "K:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
         "projectName": "SystemConfigFacade.Test",
-        "projectPath": "k:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
+        "projectPath": "K:\\MyCSharpProject\\SystemConfigFacade.Test\\SystemConfigFacade.Test.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\SystemConfigFacade.Test\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\SystemConfigFacade.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj": {
-                "projectPath": "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj"
+              "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj": {
+                "projectPath": "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj": {
+    "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj",
         "projectName": "SystemConfigFacade",
-        "projectPath": "k:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj",
+        "projectPath": "K:\\MyCSharpProject\\SystemConfigFacade\\SystemConfigFacade.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\SystemConfigFacade\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\SystemConfigFacade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

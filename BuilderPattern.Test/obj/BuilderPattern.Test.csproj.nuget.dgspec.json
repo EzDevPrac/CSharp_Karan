@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj": {}
+    "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj": {
+    "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
         "projectName": "BuilderPattern.Test",
-        "projectPath": "k:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
+        "projectPath": "K:\\MyCSharpProject\\BuilderPattern.Test\\BuilderPattern.Test.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\BuilderPattern.Test\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\BuilderPattern.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
-                "projectPath": "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj"
+              "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
+                "projectPath": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
+    "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
         "projectName": "BuilderPattern",
-        "projectPath": "k:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
+        "projectPath": "K:\\MyCSharpProject\\BuilderPattern\\BuilderPattern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\BuilderPattern\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\BuilderPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "k:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj": {}
+    "K:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj": {}
   },
   "projects": {
-    "k:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj": {
+    "K:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj",
         "projectName": "CommandPattern.Test",
-        "projectPath": "k:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj",
+        "projectPath": "K:\\MyCSharpProject\\CommandPattern.Test\\CommandPattern.Test.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\CommandPattern.Test\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\CommandPattern.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {
-                "projectPath": "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj"
+              "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {
+                "projectPath": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {
+    "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
         "projectName": "CommandPattern",
-        "projectPath": "k:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
+        "projectPath": "K:\\MyCSharpProject\\CommandPattern\\CommandPattern.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "k:\\MyCSharpProject\\CommandPattern\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\CommandPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"
