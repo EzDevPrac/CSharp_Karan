@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yoEtkJQJS6RUEjPiZoX49hqGjboa4B0P1Do5627FraSH6J1LGUxCQqkLvXVihY+iOHhCF3yITtMCMkkDn0S39Q==",
+  "dgSpecHash": "GOh7yc5D6Z5k3EEmFq1WBfC5FXZfPpS7iUxZ03OT5/GF6+ZAeSVBzBRzX9k6aUH+/RGiCE8z6/g+/v5mmClv0w==",
   "success": true,
-  "projectFilePath": "K:\\Csharp\\Csharp.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\SmtpMail\\SmptMail.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akash\\.nuget\\packages\\easendmail\\7.6.0.2\\easendmail.7.6.0.2.nupkg.sha512"
   ],

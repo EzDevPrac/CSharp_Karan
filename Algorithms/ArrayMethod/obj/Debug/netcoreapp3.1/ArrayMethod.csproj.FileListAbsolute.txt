@@ -1,0 +1,13 @@
+K:\MyCSharpProject\Algorithms\ArrayMethod\bin\Debug\netcoreapp3.1\ArrayMethod.exe
+K:\MyCSharpProject\Algorithms\ArrayMethod\bin\Debug\netcoreapp3.1\ArrayMethod.deps.json
+K:\MyCSharpProject\Algorithms\ArrayMethod\bin\Debug\netcoreapp3.1\ArrayMethod.runtimeconfig.json
+K:\MyCSharpProject\Algorithms\ArrayMethod\bin\Debug\netcoreapp3.1\ArrayMethod.runtimeconfig.dev.json
+K:\MyCSharpProject\Algorithms\ArrayMethod\bin\Debug\netcoreapp3.1\ArrayMethod.dll
+K:\MyCSharpProject\Algorithms\ArrayMethod\bin\Debug\netcoreapp3.1\ArrayMethod.pdb
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.csprojAssemblyReference.cache
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.AssemblyInfo.cs
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.dll
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.pdb
+K:\MyCSharpProject\Algorithms\ArrayMethod\obj\Debug\netcoreapp3.1\ArrayMethod.genruntimeconfig.cache

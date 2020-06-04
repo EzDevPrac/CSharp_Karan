@@ -5588,8 +5588,8 @@
     },
     "AbstractDesignPattern/1.0.0": {
       "type": "project",
-      "path": "../AbstractDesignPattern/AbstractDesignPattern.csproj",
-      "msbuildProject": "../AbstractDesignPattern/AbstractDesignPattern.csproj"
+      "path": "../AbstractdesignPattern/AbstractDesignPattern.csproj",
+      "msbuildProject": "../AbstractdesignPattern/AbstractDesignPattern.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5624,8 +5624,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj": {
-              "projectPath": "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj"
+            "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj": {
+              "projectPath": "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj"
             }
           }
         }

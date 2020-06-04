@@ -1,0 +1,15 @@
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\SmptMail.exe
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\SmptMail.deps.json
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\SmptMail.runtimeconfig.json
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\SmptMail.runtimeconfig.dev.json
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\SmptMail.dll
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\SmptMail.pdb
+K:\MyCSharpProject\SmtpMail\bin\Debug\netcoreapp3.1\EASendMail.dll
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.csprojAssemblyReference.cache
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.AssemblyInfoInputs.cache
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.AssemblyInfo.cs
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.csproj.CopyComplete
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.dll
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.pdb
+K:\MyCSharpProject\SmtpMail\obj\Debug\netcoreapp3.1\SmptMail.genruntimeconfig.cache

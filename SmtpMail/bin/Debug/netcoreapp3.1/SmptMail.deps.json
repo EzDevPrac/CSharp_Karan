@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SmptMail/1.0.0": {
+        "dependencies": {
+          "EASendMail": "7.6.0.2"
+        },
+        "runtime": {
+          "SmptMail.dll": {}
+        }
+      },
+      "EASendMail/7.6.0.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/EASendMail.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmptMail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EASendMail/7.6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-axvkJ6WsZgJpnP93uO1f+oB9e6B0CiarvTYrEhibVmffpfeRaEsN9qD0IBGvWcw3NFVRn6axP6f5oA6cnvWVyQ==",
+      "path": "easendmail/7.6.0.2",
+      "hashPath": "easendmail.7.6.0.2.nupkg.sha512"
+    }
+  }
+}

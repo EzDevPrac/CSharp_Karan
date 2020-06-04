@@ -1,6 +1,35 @@
 # C-Sharp Project Karan 
 [![Build Status](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_apis/build/status/EzDevPrac.CSharp_Karan?branchName=master)](https://dev.azure.com/karan1198kumar/MyCsharpProjectJKT/_build/latest?definitionId=1&branchName=master)
 
+# Web API
+
+API is some kind of interface which has a set of funtions that allows programmers to acess specific features or data of an application,OS or other services. or we can also say it as a set of subroutine defination , protocols and tools for building software and application.
+
+**Web API** is an API over the web which can be accessed using HTTP protocol.
+
+**Model** : Set of classes that represents the data that the application manages.
+
+**REST API's**
+
+1.  Representational state transfer Application Progrgramming Interface.
+2.  API that uses http request to GET/PUT/POST/DELETE etc .
+3.  REST technology is generally preferred over the Simple object Access Protocol(SOAP),it uses less bandwidth.
+4.  Its Stateless( i.e there is nomrecord of the previous interaction and each interaction request has to be handled based entirely on the 
+    information  that comes with it ).
+5.  **SOAP**: Developer handwrite the XML document with Remote Procedure Call(RPC) in the body.They than specify the end point and post 
+    their SOAP envelop the endpoint.
+6.  Rest API tend to deliver JSON or XML data.
+
+**Some of the main HTTP Methods of the RESt API**
+1.  GET : Get all the required data(GET/API/ToDOItem or GET/API/ToDoItem/{Id}(get data based on id)).
+2.  POSt: Add new data(POST/API/todoItem.)
+3.  PUT : Update an existing item(PUT/API/ToDoItem/{Id}).
+4.  DELETE: Delete an Item(DELETE/API/ToDoItem/{id}).  
+
+Code for the above Code snippet is available in the following link
+https://github.com/EzDevPrac/CSharp_Karan/tree/master/WebApiDemo
+
+
 
 # Dependency Injection
 1.  It is a software design pattern which enables the developement of loosely coupled code
@@ -489,10 +518,10 @@ https://github.com/EzDevPrac/CSharp_Karan/tree/master/IceCreamShopItteratorPatte
 ## Strategy Design Pattern
 
 1.  Strategy Design Pattern falls under Behavioral Pattern.
-2.  This pattern allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple way to 
-    access it.
-3.  Strategy Design Pattern involves the removal of an algorithm from its host class and putting it in a separate class. As 
-    you know, there may be multiple strategies which are applicable for a given problem.
+2.  This pattern allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple   
+    way to access it.
+3.  Strategy Design Pattern involves the removal of an algorithm from its host class and putting it in a separate 
+    class. As you know, there may be multiple strategies which are applicable for a given problem.
 
 **UML diagram for the Strategy Design Pattern  is given Below**
 

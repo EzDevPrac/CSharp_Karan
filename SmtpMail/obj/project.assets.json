@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "k:\\Csharp\\Csharp.csproj",
-      "projectName": "Csharp",
-      "projectPath": "k:\\Csharp\\Csharp.csproj",
+      "projectUniqueName": "K:\\MyCSharpProject\\SmtpMail\\SmptMail.csproj",
+      "projectName": "SmptMail",
+      "projectPath": "K:\\MyCSharpProject\\SmtpMail\\SmptMail.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-      "outputPath": "k:\\Csharp\\obj\\",
+      "outputPath": "K:\\MyCSharpProject\\SmtpMail\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

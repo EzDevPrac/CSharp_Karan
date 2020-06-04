@@ -1,0 +1,13 @@
+K:\MyCSharpProject\Algorithms\SortingMethod\bin\Debug\netcoreapp3.1\SortingMethod.exe
+K:\MyCSharpProject\Algorithms\SortingMethod\bin\Debug\netcoreapp3.1\SortingMethod.deps.json
+K:\MyCSharpProject\Algorithms\SortingMethod\bin\Debug\netcoreapp3.1\SortingMethod.runtimeconfig.json
+K:\MyCSharpProject\Algorithms\SortingMethod\bin\Debug\netcoreapp3.1\SortingMethod.runtimeconfig.dev.json
+K:\MyCSharpProject\Algorithms\SortingMethod\bin\Debug\netcoreapp3.1\SortingMethod.dll
+K:\MyCSharpProject\Algorithms\SortingMethod\bin\Debug\netcoreapp3.1\SortingMethod.pdb
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.csprojAssemblyReference.cache
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.AssemblyInfo.cs
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.dll
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.pdb
+K:\MyCSharpProject\Algorithms\SortingMethod\obj\Debug\netcoreapp3.1\SortingMethod.genruntimeconfig.cache

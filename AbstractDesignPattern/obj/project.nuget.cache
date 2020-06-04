@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aifd/B5DV4JFpRYpRAz9TMkISh+t93B7lAOkA+e0dJ3/+RngaeHHOoVXSJbw9+AO0GdlKw1s4MDq9SvzRkBg3w==",
+  "dgSpecHash": "qLEw02T7d7gJJFge9079LARuiy7Ob1IyfFd9CokJm25BXVyGGGGRpTGHqCPkBN8Bc2rZLy8y+RYS/Crd99xnyg==",
   "success": true,
-  "projectFilePath": "K:\\MyCSharpProject\\AbstractDesignPattern\\AbstractDesignPattern.csproj",
+  "projectFilePath": "K:\\MyCSharpProject\\AbstractdesignPattern\\AbstractDesignPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
