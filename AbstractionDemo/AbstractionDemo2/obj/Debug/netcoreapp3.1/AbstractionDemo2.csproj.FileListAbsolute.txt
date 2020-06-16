@@ -1,0 +1,13 @@
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.csprojAssemblyReference.cache
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.AssemblyInfoInputs.cache
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.AssemblyInfo.cs
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\bin\Debug\netcoreapp3.1\AbstractionDemo2.exe
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\bin\Debug\netcoreapp3.1\AbstractionDemo2.deps.json
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\bin\Debug\netcoreapp3.1\AbstractionDemo2.runtimeconfig.json
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\bin\Debug\netcoreapp3.1\AbstractionDemo2.runtimeconfig.dev.json
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\bin\Debug\netcoreapp3.1\AbstractionDemo2.dll
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\bin\Debug\netcoreapp3.1\AbstractionDemo2.pdb
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.dll
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.pdb
+K:\MyCSharpProject\AbstractionDemo\AbstractionDemo2\obj\Debug\netcoreapp3.1\AbstractionDemo2.genruntimeconfig.cache

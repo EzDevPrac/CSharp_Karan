@@ -1,0 +1,13 @@
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.csprojAssemblyReference.cache
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.AssemblyInfoInputs.cache
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.AssemblyInfo.cs
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\bin\Debug\netcoreapp3.1\TeacherStudent.exe
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\bin\Debug\netcoreapp3.1\TeacherStudent.deps.json
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\bin\Debug\netcoreapp3.1\TeacherStudent.runtimeconfig.json
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\bin\Debug\netcoreapp3.1\TeacherStudent.runtimeconfig.dev.json
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\bin\Debug\netcoreapp3.1\TeacherStudent.dll
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\bin\Debug\netcoreapp3.1\TeacherStudent.pdb
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.dll
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.pdb
+K:\MyCSharpProject\AssignmentC#\TeacherStudent\obj\Debug\netcoreapp3.1\TeacherStudent.genruntimeconfig.cache

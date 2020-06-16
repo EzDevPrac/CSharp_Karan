@@ -1,0 +1,13 @@
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.csprojAssemblyReference.cache
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.AssemblyInfoInputs.cache
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.AssemblyInfo.cs
+K:\MyCSharpProject\AssignmentC#\Vehicle\bin\Debug\netcoreapp3.1\Vehicle.exe
+K:\MyCSharpProject\AssignmentC#\Vehicle\bin\Debug\netcoreapp3.1\Vehicle.deps.json
+K:\MyCSharpProject\AssignmentC#\Vehicle\bin\Debug\netcoreapp3.1\Vehicle.runtimeconfig.json
+K:\MyCSharpProject\AssignmentC#\Vehicle\bin\Debug\netcoreapp3.1\Vehicle.runtimeconfig.dev.json
+K:\MyCSharpProject\AssignmentC#\Vehicle\bin\Debug\netcoreapp3.1\Vehicle.dll
+K:\MyCSharpProject\AssignmentC#\Vehicle\bin\Debug\netcoreapp3.1\Vehicle.pdb
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.dll
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.pdb
+K:\MyCSharpProject\AssignmentC#\Vehicle\obj\Debug\netcoreapp3.1\Vehicle.genruntimeconfig.cache

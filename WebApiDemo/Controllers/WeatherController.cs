@@ -11,14 +11,16 @@ namespace WebApiDemo.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherController : ControllerBase
+    public class WeatherController : Controller
     {
-          
+        
+        
         WeatherService _WeatherServices;
 
         public WeatherController(WeatherService weatherServices){
         this._WeatherServices = weatherServices;
         }
+        
 
     [HttpGet]
     public ActionResult Get(){

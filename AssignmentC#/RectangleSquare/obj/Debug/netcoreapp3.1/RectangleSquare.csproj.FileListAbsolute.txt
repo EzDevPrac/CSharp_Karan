@@ -1,0 +1,13 @@
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.csprojAssemblyReference.cache
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.AssemblyInfoInputs.cache
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.AssemblyInfo.cs
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\bin\Debug\netcoreapp3.1\RectangleSquare.exe
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\bin\Debug\netcoreapp3.1\RectangleSquare.deps.json
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\bin\Debug\netcoreapp3.1\RectangleSquare.runtimeconfig.json
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\bin\Debug\netcoreapp3.1\RectangleSquare.runtimeconfig.dev.json
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\bin\Debug\netcoreapp3.1\RectangleSquare.dll
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\bin\Debug\netcoreapp3.1\RectangleSquare.pdb
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.dll
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.pdb
+K:\MyCSharpProject\AssignmentC#\RectangleSquare\obj\Debug\netcoreapp3.1\RectangleSquare.genruntimeconfig.cache
