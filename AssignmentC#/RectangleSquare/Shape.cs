@@ -4,7 +4,7 @@ namespace RectangleSquare
     {
         protected Location c;
         
-        public abstract string ToString();
+        public abstract new string ToString();
         public abstract double Area();
         public abstract double Perimeter();
 

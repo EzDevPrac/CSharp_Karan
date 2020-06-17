@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\AssignmentC#\\Vehicle\\Vehicle.csproj": {}
+    "K:\\MyCSharpProject\\Assignmentc#\\Vehicle\\Vehicle.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\AssignmentC#\\Vehicle\\Vehicle.csproj": {
+    "K:\\MyCSharpProject\\Assignmentc#\\Vehicle\\Vehicle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\AssignmentC#\\Vehicle\\Vehicle.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Assignmentc#\\Vehicle\\Vehicle.csproj",
         "projectName": "Vehicle",
-        "projectPath": "K:\\MyCSharpProject\\AssignmentC#\\Vehicle\\Vehicle.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Assignmentc#\\Vehicle\\Vehicle.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\AssignmentC#\\Vehicle\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Assignmentc#\\Vehicle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

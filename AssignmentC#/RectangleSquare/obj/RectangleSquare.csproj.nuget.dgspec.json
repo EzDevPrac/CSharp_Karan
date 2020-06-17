@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\AssignmentC#\\RectangleSquare\\RectangleSquare.csproj": {}
+    "K:\\MyCSharpProject\\Assignmentc#\\RectangleSquare\\RectangleSquare.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\AssignmentC#\\RectangleSquare\\RectangleSquare.csproj": {
+    "K:\\MyCSharpProject\\Assignmentc#\\RectangleSquare\\RectangleSquare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\AssignmentC#\\RectangleSquare\\RectangleSquare.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Assignmentc#\\RectangleSquare\\RectangleSquare.csproj",
         "projectName": "RectangleSquare",
-        "projectPath": "K:\\MyCSharpProject\\AssignmentC#\\RectangleSquare\\RectangleSquare.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Assignmentc#\\RectangleSquare\\RectangleSquare.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\AssignmentC#\\RectangleSquare\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Assignmentc#\\RectangleSquare\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

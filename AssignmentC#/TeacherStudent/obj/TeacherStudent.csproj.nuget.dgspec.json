@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\AssignmentC#\\TeacherStudent\\TeacherStudent.csproj": {}
+    "K:\\MyCSharpProject\\Assignmentc#\\TeacherStudent\\TeacherStudent.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\AssignmentC#\\TeacherStudent\\TeacherStudent.csproj": {
+    "K:\\MyCSharpProject\\Assignmentc#\\TeacherStudent\\TeacherStudent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\AssignmentC#\\TeacherStudent\\TeacherStudent.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Assignmentc#\\TeacherStudent\\TeacherStudent.csproj",
         "projectName": "TeacherStudent",
-        "projectPath": "K:\\MyCSharpProject\\AssignmentC#\\TeacherStudent\\TeacherStudent.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Assignmentc#\\TeacherStudent\\TeacherStudent.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\AssignmentC#\\TeacherStudent\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Assignmentc#\\TeacherStudent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

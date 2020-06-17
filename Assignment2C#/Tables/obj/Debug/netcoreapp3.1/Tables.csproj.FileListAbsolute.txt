@@ -1,0 +1,13 @@
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.csprojAssemblyReference.cache
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.AssemblyInfo.cs
+K:\MyCSharpProject\Assignment2C#\Tables\bin\Debug\netcoreapp3.1\Tables.exe
+K:\MyCSharpProject\Assignment2C#\Tables\bin\Debug\netcoreapp3.1\Tables.deps.json
+K:\MyCSharpProject\Assignment2C#\Tables\bin\Debug\netcoreapp3.1\Tables.runtimeconfig.json
+K:\MyCSharpProject\Assignment2C#\Tables\bin\Debug\netcoreapp3.1\Tables.runtimeconfig.dev.json
+K:\MyCSharpProject\Assignment2C#\Tables\bin\Debug\netcoreapp3.1\Tables.dll
+K:\MyCSharpProject\Assignment2C#\Tables\bin\Debug\netcoreapp3.1\Tables.pdb
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.dll
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.pdb
+K:\MyCSharpProject\Assignment2C#\Tables\obj\Debug\netcoreapp3.1\Tables.genruntimeconfig.cache

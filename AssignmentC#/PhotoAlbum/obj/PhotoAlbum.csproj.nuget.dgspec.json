@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\AssignmentC#\\PhotoAlbum\\PhotoAlbum.csproj": {}
+    "K:\\MyCSharpProject\\Assignmentc#\\PhotoAlbum\\PhotoAlbum.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\AssignmentC#\\PhotoAlbum\\PhotoAlbum.csproj": {
+    "K:\\MyCSharpProject\\Assignmentc#\\PhotoAlbum\\PhotoAlbum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\AssignmentC#\\PhotoAlbum\\PhotoAlbum.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Assignmentc#\\PhotoAlbum\\PhotoAlbum.csproj",
         "projectName": "PhotoAlbum",
-        "projectPath": "K:\\MyCSharpProject\\AssignmentC#\\PhotoAlbum\\PhotoAlbum.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Assignmentc#\\PhotoAlbum\\PhotoAlbum.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\AssignmentC#\\PhotoAlbum\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Assignmentc#\\PhotoAlbum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

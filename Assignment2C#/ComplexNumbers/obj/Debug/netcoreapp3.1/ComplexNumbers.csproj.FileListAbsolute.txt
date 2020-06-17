@@ -1,0 +1,13 @@
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.csprojAssemblyReference.cache
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.AssemblyInfo.cs
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\bin\Debug\netcoreapp3.1\ComplexNumbers.exe
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\bin\Debug\netcoreapp3.1\ComplexNumbers.deps.json
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\bin\Debug\netcoreapp3.1\ComplexNumbers.runtimeconfig.json
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\bin\Debug\netcoreapp3.1\ComplexNumbers.runtimeconfig.dev.json
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\bin\Debug\netcoreapp3.1\ComplexNumbers.dll
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\bin\Debug\netcoreapp3.1\ComplexNumbers.pdb
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.dll
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.pdb
+K:\MyCSharpProject\Assignment2C#\ComplexNumbers\obj\Debug\netcoreapp3.1\ComplexNumbers.genruntimeconfig.cache

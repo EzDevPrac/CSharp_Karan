@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\MyCSharpProject\\AssignmentC#\\Square\\Square.csproj": {}
+    "K:\\MyCSharpProject\\Assignmentc#\\Square\\Square.csproj": {}
   },
   "projects": {
-    "K:\\MyCSharpProject\\AssignmentC#\\Square\\Square.csproj": {
+    "K:\\MyCSharpProject\\Assignmentc#\\Square\\Square.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\MyCSharpProject\\AssignmentC#\\Square\\Square.csproj",
+        "projectUniqueName": "K:\\MyCSharpProject\\Assignmentc#\\Square\\Square.csproj",
         "projectName": "Square",
-        "projectPath": "K:\\MyCSharpProject\\AssignmentC#\\Square\\Square.csproj",
+        "projectPath": "K:\\MyCSharpProject\\Assignmentc#\\Square\\Square.csproj",
         "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
-        "outputPath": "K:\\MyCSharpProject\\AssignmentC#\\Square\\obj\\",
+        "outputPath": "K:\\MyCSharpProject\\Assignmentc#\\Square\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config"

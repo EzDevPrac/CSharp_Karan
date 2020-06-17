@@ -1,0 +1,13 @@
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.csprojAssemblyReference.cache
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.AssemblyInfo.cs
+K:\MyCSharpProject\Assignment2C#\Point3D\bin\Debug\netcoreapp3.1\Point3D.exe
+K:\MyCSharpProject\Assignment2C#\Point3D\bin\Debug\netcoreapp3.1\Point3D.deps.json
+K:\MyCSharpProject\Assignment2C#\Point3D\bin\Debug\netcoreapp3.1\Point3D.runtimeconfig.json
+K:\MyCSharpProject\Assignment2C#\Point3D\bin\Debug\netcoreapp3.1\Point3D.runtimeconfig.dev.json
+K:\MyCSharpProject\Assignment2C#\Point3D\bin\Debug\netcoreapp3.1\Point3D.dll
+K:\MyCSharpProject\Assignment2C#\Point3D\bin\Debug\netcoreapp3.1\Point3D.pdb
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.dll
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.pdb
+K:\MyCSharpProject\Assignment2C#\Point3D\obj\Debug\netcoreapp3.1\Point3D.genruntimeconfig.cache
