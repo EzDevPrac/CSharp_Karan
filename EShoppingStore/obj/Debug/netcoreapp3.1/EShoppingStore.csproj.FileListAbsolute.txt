@@ -1,0 +1,13 @@
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.csprojAssemblyReference.cache
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.AssemblyInfoInputs.cache
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.AssemblyInfo.cs
+K:\MyCSharpProject\EShoppingStore\bin\Debug\netcoreapp3.1\EShoppingStore.exe
+K:\MyCSharpProject\EShoppingStore\bin\Debug\netcoreapp3.1\EShoppingStore.deps.json
+K:\MyCSharpProject\EShoppingStore\bin\Debug\netcoreapp3.1\EShoppingStore.runtimeconfig.json
+K:\MyCSharpProject\EShoppingStore\bin\Debug\netcoreapp3.1\EShoppingStore.runtimeconfig.dev.json
+K:\MyCSharpProject\EShoppingStore\bin\Debug\netcoreapp3.1\EShoppingStore.dll
+K:\MyCSharpProject\EShoppingStore\bin\Debug\netcoreapp3.1\EShoppingStore.pdb
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.dll
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.pdb
+K:\MyCSharpProject\EShoppingStore\obj\Debug\netcoreapp3.1\EShoppingStore.genruntimeconfig.cache

@@ -6,9 +6,9 @@ namespace CatalogUtility
     {
         static void Main(string[] args)
         {
-            Movies[] _Movies = new Movies[];
-            MusicFiles[] _MusicFiles = new MusicFiles[];
-            ComputerProgram _ComputerProgram = new ComputerProgram[];
+            Movies[] _Movies = new Movies[10];
+            MusicFiles[] _MusicFiles = new MusicFiles[10];
+            ComputerProgram[] _ComputerProgram = new ComputerProgram[10];
 
         }
     }

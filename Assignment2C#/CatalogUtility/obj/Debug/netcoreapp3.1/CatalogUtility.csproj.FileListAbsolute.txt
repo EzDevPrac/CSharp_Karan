@@ -1,0 +1,12 @@
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\bin\Debug\netcoreapp3.1\CatalogUtility.exe
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\bin\Debug\netcoreapp3.1\CatalogUtility.deps.json
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\bin\Debug\netcoreapp3.1\CatalogUtility.runtimeconfig.json
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\bin\Debug\netcoreapp3.1\CatalogUtility.runtimeconfig.dev.json
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\bin\Debug\netcoreapp3.1\CatalogUtility.dll
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\bin\Debug\netcoreapp3.1\CatalogUtility.pdb
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\obj\Debug\netcoreapp3.1\CatalogUtility.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\obj\Debug\netcoreapp3.1\CatalogUtility.AssemblyInfoInputs.cache
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\obj\Debug\netcoreapp3.1\CatalogUtility.AssemblyInfo.cs
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\obj\Debug\netcoreapp3.1\CatalogUtility.dll
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\obj\Debug\netcoreapp3.1\CatalogUtility.pdb
+K:\MyCSharpProject\Assignment2C#\CatalogUtility\obj\Debug\netcoreapp3.1\CatalogUtility.genruntimeconfig.cache
