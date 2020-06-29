@@ -5,12 +5,9 @@ namespace EShoppingStore
 {
     public  class MarketingStaff
     {
-        private static List<Product> ProductList = new List<Product>();
-        public Customer cc =  new Customer();
+       public static List<Product> ProductList = new List<Product>();
+       
 
-        
-
-                       
         public void AddItems()
          {
           
@@ -19,6 +16,31 @@ namespace EShoppingStore
            ProductList.Add(new Product(3,"Mi TV",23999));
          }
         
+        public int  StaffLogin(string name , int password)
+        {
+
+             if(name == "Karan" && password == 1927)
+             {
+                 Console.WriteLine("Loggin Successfull..");
+                 return 1;
+             }
+             else{
+                 Console.WriteLine("Invalid Credentials");
+             }
+         return 0;
+        }
+
+        public void Addproduct()
+        {
+           Console.WriteLine("Enter the product ID");
+           int id = Convert.ToInt32(Console.ReadLine());
+           Console.WriteLine("Enter the Product Name");
+           string name = Console.ReadLine();
+           Console.WriteLine("Enter the product Cost");
+           double cost = Convert.ToDouble(Console.ReadLine());
+           ProductList.Add(new Product(id,name,cost));
+
+        }
         public string GetProductName(int id)
         {
            foreach (var item in ProductList)
@@ -50,51 +72,8 @@ namespace EShoppingStore
                Console.WriteLine(item._ItemId+"\t\t"+item._ItemName+"\t\t"+item._ItemCost);
                Console.WriteLine("----------------------------------------------");
            }
-           Console.WriteLine("Enter the Item Id to Add it to Your cart");
-           int ItemId = Convert.ToInt32(Console.ReadLine()); 
-           cc.AddToCart(ItemId);
-
+            
         }
-        public void CustomerOptions(string name){
-            SalesPerson Sp = new SalesPerson();           
-            int choice=0;
-            AddItems();
-            while(choice<=5){
-            Console.WriteLine("name :" + name );
-            Console.WriteLine("----------------------");
-      
-            Console.WriteLine("1.Shop");
-            Console.WriteLine("2.View Cart");
-            Console.WriteLine("3.Check Order status");
-            Console.WriteLine("4.Change account Information");
-            Console.WriteLine("5.Return Product");
-            Console.WriteLine("6.Logout");
-            choice = Convert.ToInt32(Console.ReadLine());
-            switch(choice){
-               
-             case 1:
-                    ShowItem(); 
-                    break;
-             case 2:
-                    cc.viewCart();  
-                    break;
-             case 3:Sp.ShowOrderStatus();
-                     
-                    break;
-             case 4: 
-                    cc.ChangeAccountInfo();  
-                    break;
-
-             case 5: 
-                     Sp.ReturnItem();                   
-                     break;      
-             default:break;
-
-
-            }
-            }
-         }  
-
-
+        
     }
 }

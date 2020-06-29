@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9X2iacBklFbXFDugzMs+pmCmt5I+zX81AsQWOp3/o0S/tBSXVJdJmu7w60r8Fjja8LJr7MKGH3J6FvbirM7rGw==",
+  "success": true,
+  "projectFilePath": "K:\\MyCSharpProject\\Eshoping3.O\\EShoppingStore\\EShoppingStore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akash\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

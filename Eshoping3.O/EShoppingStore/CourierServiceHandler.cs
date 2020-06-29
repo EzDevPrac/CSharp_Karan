@@ -2,7 +2,7 @@ using System;
 
 namespace EShoppingStore
 {
-    public class CourierCompany
+    public class CourierServiceHandler:ICourierServiceHandler
     {
         public void Packaging(string PackingType){
             

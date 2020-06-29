@@ -6,11 +6,9 @@ namespace EShoppingStore
     {
                 
         private CreditCard creditCard;
-        private static SalesPerson sp = new SalesPerson();
-        private static MarketingStaff mp = new MarketingStaff();           
-        private static List<Cart> _Cart = new List<Cart>();
+        private List<Cart> _Cart = new List<Cart>();
         
-        Cart cart = new Cart();
+      
         public Customer(){}
         public Customer(string name,string mobileNumber,string email,string Adress,CreditCard creditCard)
         {
@@ -20,25 +18,22 @@ namespace EShoppingStore
               this._Address = Adress;
               this.creditCard = creditCard;
               
-              
-
         }
 
         public CreditCard _CreditCard { get => _CreditCard; set => _CreditCard = value; }
         
       
-        public void AddToCart(int id)
-        {    
+        public void AddToCart(MarketingStaff _MarketingStaff)
+        {   Console.WriteLine("Enter the Item Id to Add it to Your cart");
+            int ItemId = Convert.ToInt32(Console.ReadLine()); 
                     
-             string name = mp.GetProductName(id);
-             double cost = mp.GetProductCost(id);
-             cart = new Cart(id,name,cost);
-             _Cart.Add(cart);
+             string name = _MarketingStaff.GetProductName(ItemId);
+             double cost = _MarketingStaff.GetProductCost(ItemId);
+              
+             _Cart.Add(new Cart(ItemId,name,cost));
              
         }
-        //public void RemoveFromCart(int id)
-        //{}
-        public void viewCart()
+        public int viewCart()
         {    
              int isEmpty = _Cart.Count;          
              if(isEmpty == 0)
@@ -50,13 +45,16 @@ namespace EShoppingStore
             {  
                Console.WriteLine("Item Id   : " + item._ItemId);
                Console.WriteLine("Item Name : " + item._ItemName);
-               Console.WriteLine("Item Cost : " + item._ItemCost);                
+               Console.WriteLine("Item Cost : " + item._ItemCost);
+               return 1;                
             }
-            Checkout();
+            
           }
+          return 0;
         }
-        public void Checkout()
-        {   char Choice; 
+        public void CustomerCheckout(SalesPerson SalesStaff,CourierCompany _Courier)
+        {   
+            char Choice; 
 
             Console.WriteLine("Do You Want to Checkout(Y/N)");
             Choice = Convert.ToChar(Console.ReadLine());
@@ -64,8 +62,9 @@ namespace EShoppingStore
             if(Choice == 'Y')
             {
                 
-                 sp.CheckOut(_Cart);
-                 _Cart.Clear(); 
+                 SalesStaff.CheckOut(_Cart,_Courier);
+                 _Cart.Clear();
+                 
             }
             if(Choice == 'N'){
                Console.WriteLine("You Can Continue Shopping");
