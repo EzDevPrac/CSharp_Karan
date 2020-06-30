@@ -29,3 +29,8 @@ K:\MyCSharpProject\WebApiDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 K:\MyCSharpProject\WebApiDemo\obj\Debug\netcoreapp3.1\WebApiDemo.RazorAssemblyInfo.cache
 K:\MyCSharpProject\WebApiDemo\obj\Debug\netcoreapp3.1\WebApiDemo.RazorAssemblyInfo.cs
 K:\MyCSharpProject\WebApiDemo\obj\Debug\netcoreapp3.1\WebApiDemo.csproj.CopyComplete
+K:\MyCSharpProject\WebApiDemo\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+K:\MyCSharpProject\WebApiDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+K:\MyCSharpProject\WebApiDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+K:\MyCSharpProject\WebApiDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+K:\MyCSharpProject\WebApiDemo\obj\Debug\netcoreapp3.1\WebApiDemo.MvcApplicationPartsAssemblyInfo.cs

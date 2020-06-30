@@ -116,6 +116,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eshoping3.O", "Eshoping3.O"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShoppingStore", "Eshoping3.O\EShoppingStore\EShoppingStore.csproj", "{12FDCA9C-483D-43BD-83F3-BA5A6FD87BEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShoppingWebApi", "EshoppingWebApi\EShoppingWebApi.csproj", "{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +719,18 @@ Global
 		{12FDCA9C-483D-43BD-83F3-BA5A6FD87BEB}.Release|x64.Build.0 = Release|Any CPU
 		{12FDCA9C-483D-43BD-83F3-BA5A6FD87BEB}.Release|x86.ActiveCfg = Release|Any CPU
 		{12FDCA9C-483D-43BD-83F3-BA5A6FD87BEB}.Release|x86.Build.0 = Release|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Debug|x64.Build.0 = Debug|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Debug|x86.Build.0 = Debug|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Release|x64.ActiveCfg = Release|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Release|x64.Build.0 = Release|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Release|x86.ActiveCfg = Release|Any CPU
+		{7720EF54-4E1F-4F59-9F69-E9FB2EDEFD31}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{419AE64A-6957-4EC0-8814-A209411B307B} = {B6A1F0AB-B1D8-4AA6-AF15-FE093304B428}

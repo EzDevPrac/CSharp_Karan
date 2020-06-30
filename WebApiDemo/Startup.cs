@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApiDemo.Services;
+using Microsoft.OpenApi.Models;
 namespace WebApiDemo
 {
     public class Startup
@@ -23,10 +24,22 @@ namespace WebApiDemo
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        /*public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
             services.AddSingleton<WeatherService>();
+        }*/
+
+        public void ConfigureServices(IServiceCollection services)
+        {
+             services.AddControllers();
+            services.AddSingleton<WeatherService>();
+       
+             services.AddMvc();
+             services.AddSwaggerGen(c =>
+            {
+             c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiDemo", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +60,15 @@ namespace WebApiDemo
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+
+// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
+
+app.UseSwaggerUI(c =>
+{
+c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApidemo V1");
+});
         }
     }
 }
