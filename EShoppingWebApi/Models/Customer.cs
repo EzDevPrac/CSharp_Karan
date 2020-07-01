@@ -10,20 +10,12 @@ namespace EShoppingWebApi.Models
         public Customer()
         {
           customerName = "Karan";
-          customerMobileNumber = "41432w235";
+          customerMobileNumber = "12345";
           customerEmailId = "@hash.com";
-          customerAddress = "Jharkand";
+          customerAddress = "Tamil Nadu";
+          
 
         }
-
-        /*public Customer(string customerName,string customerMobileNumber,string customerEmailId,string customerAddress)
-        {
-          this.CustomerName = customerName;
-          this.customerMobileNumber = customerMobileNumber;
-          this.customerEmailId = customerEmailId;
-          this.customerAddress = customerAddress;
-
-        }*/
 
         public string CustomerName { get => customerName; set => customerName = value; }
         public string CustomerMobileNumber { get => customerMobileNumber; set => customerMobileNumber = value; }

@@ -28,7 +28,8 @@ namespace EShoppingWebApi
         public void ConfigureServices(IServiceCollection services)
         {
              services.AddControllers();
-             services.AddSingleton<CustomerService>();
+             services.AddScoped<ICustomerService, CustomerService>();
+             //services.Add<ICustomerService>();
              //services.AddControllers().AddNewtonsoftJson();
 
              services.AddMvc();

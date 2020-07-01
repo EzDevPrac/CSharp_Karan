@@ -12,12 +12,17 @@ namespace EShoppingWebApi.Controllers
     
     public class RegistrationController :ControllerBase
     {
-      CustomerService customerService = new CustomerService();
+       ICustomerService CustomerService ;
+       
+        public RegistrationController (ICustomerService customerService)
+        {
+            CustomerService = customerService;
+        }
 
         [HttpPost]
 
        public ActionResult Post([FromBody] Customer customer){
-         this.customerService.AddCustomer(customer);
+         this.CustomerService.AddCustomer(customer);
         return Ok();
     }    
 

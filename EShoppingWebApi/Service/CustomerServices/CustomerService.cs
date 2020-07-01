@@ -8,11 +8,10 @@ namespace EShoppingWebApi.Service.CustomerServices
     {
         public static List<Customer> CustomerList =new List<Customer>();
         
-        public void ExistingCustomer()
+        public CustomerService()
         {
+          CustomerList.Add(new Customer());
 
-            CustomerList.Add(new Customer());
-            //CustomerList.Add(new Customer("Raju","8876543210","@Yahoo.com","Jharkand"));
         }
         public Customer Authenticate(string name,string Password)
         {

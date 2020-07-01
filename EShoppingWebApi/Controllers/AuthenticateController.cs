@@ -13,19 +13,24 @@ namespace EShoppingWebApi.Controllers
     [Route("[controller]")]
     public class AuthenticateController : ControllerBase
     {
-        CustomerService CustomerService = new CustomerService();
+        ICustomerService CustomerService ;
        
-
+        public AuthenticateController (ICustomerService customerService)
+        {
+            CustomerService = customerService;
+            CustomerService.AddCustomer(new Customer());
+        }
 
         
 
         [HttpPost]
         public IActionResult Post(string Name,string Password)
         {  
-            var _Customer =CustomerService.Authenticate(Name,Password);
+            var _Customer = CustomerService.Authenticate(Name,Password);
 
             if (_Customer == null)
                 return BadRequest(new { message = "Username or password is incorrect" });
+           
            return Ok(_Customer);
         }
 
