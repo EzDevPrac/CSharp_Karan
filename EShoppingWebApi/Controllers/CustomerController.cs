@@ -22,7 +22,7 @@ namespace EShoppingWebApi.Controllers
         [HttpGet]
         public ActionResult Get(){
           if(CustomerService.GetCustomer() == null)
-           { return BadRequest(new{ message = "Customer List is Empty"});}
+           { return BadRequest(new{ message = " Customer List is Empty "});}
         return Ok(this.CustomerService.GetCustomer());
         }
     
@@ -32,13 +32,17 @@ namespace EShoppingWebApi.Controllers
          //1-Success,0-Invalid,-1-Null Value
 
          if(CustomerDataValidation.ValidateName(customer.CustomerName) == -1)
-           return BadRequest(new{message = " Inavlid Input for the Customer name "});
+           return BadRequest(new{message = " Customer name cannot be Empty"});
          if(CustomerDataValidation.ValidateMobileNumber(customer.CustomerMobileNumber) == -1)
-           return BadRequest(new{message = " Inavlid Input for the Customer Mobile number "});
+           return BadRequest(new{message = " Customer Mobile number cannot be Empty "});
          if(CustomerDataValidation.ValidateEmailId(customer.CustomerEmailId) == -1)
-           return BadRequest(new{message = " Inavlid Input for the Customer Email ID "});  
+           return BadRequest(new{message = " Customer Email ID Cannot be Empty "});  
+         if(CustomerDataValidation.ValidateCustomerAddress(customer.CustomerAddress) == -1)
+           return BadRequest(new{message = " Customer Address cannot be Empty "});
+         if(CustomerDataValidation.ValidatePassword(customer.Password) == -1)
+           return BadRequest(new{message = " Customer Password cannot be Empty "});
          if(CustomerDataValidation.ValidateAccountNumber(customer.CustomerAccountNumber) == -1)
-           return BadRequest(new{message = " Inavlid Input for the Customer Account Number(Eg: XXXX-XXXX-XXXX-XXXX) "});  
+           return BadRequest(new{message = " Customer Account Number(Eg: XXXX-XXXX-XXXX-XXXX) cannot be empty "});  
          
          if(CustomerDataValidation.ValidateName(customer.CustomerName) == 1)
           {
@@ -72,7 +76,7 @@ namespace EShoppingWebApi.Controllers
             var _Customer = CustomerService.Authenticate(customerData.UserName,customerData.Password);
 
             if (_Customer == null)
-                return BadRequest(new { message = "Username or password is incorrect" });
+                return BadRequest(new { message = " Username or password is incorrect " });
            
            return Ok(_Customer);
         }   

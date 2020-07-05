@@ -31,7 +31,7 @@ namespace EShoppingWebApi.Validation.CustomerDataValidation
         }
         public int ValidateAccountNumber(string accountNumber){
            match = @"^[1-9]{1}[0-9]{3}-[0-9]{4}-[0-9]{4}-[0-9]{4}$";
-           if(accountNumber == " ")
+           if(accountNumber == null)
             return -1;
            if(Regex.IsMatch(accountNumber,match)) 
             return 1;
@@ -48,7 +48,16 @@ namespace EShoppingWebApi.Validation.CustomerDataValidation
         return 0;          
 
         }
-
+        
+        public int ValidateCustomerAddress(string address){
+          if(address == null)
+           return -1;
+        return 1;}
+        public int ValidatePassword(string password){
+           if(password == null)
+             return -1;
+        return 1;
+        }
         public int CheckExistingCustomer(List<Customer> data){
 
          return 0;

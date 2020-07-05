@@ -10,6 +10,9 @@ namespace EShoppingWebApi.Validation.CustomerDataValidation
          int ValidateAccountNumber(string accountNumber);
          int ValidateEmailId(string mailId);
 
+         int ValidateCustomerAddress(string address);
+         int ValidatePassword(string password);
+
          int CheckExistingCustomer(List<Customer> data);
     }
 }
