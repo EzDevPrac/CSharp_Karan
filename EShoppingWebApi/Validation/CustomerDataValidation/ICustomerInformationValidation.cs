@@ -13,6 +13,6 @@ namespace EShoppingWebApi.Validation.CustomerDataValidation
          int ValidateCustomerAddress(string address);
          int ValidatePassword(string password);
 
-         int CheckExistingCustomer(List<Customer> data);
+         int CheckExistingCustomer(Customer _Customer);
     }
 }

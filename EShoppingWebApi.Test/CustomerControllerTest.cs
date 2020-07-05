@@ -33,22 +33,21 @@ namespace EShoppingWebApi.Test
       Assert.Equal("{ message =  Customer List is Empty  }",value);
 
     }
-    /*[Fact]
+    [Fact]
     public void When_Get_Method_Is_Executed_Returns_OkObjectResult()
     {
-    _mockCustomer.Setup(customer => customer.GetCustomer()).Returns<Customer>(new Customer(){CustomerName = "Karan",CustomerEmailId = "Karan@gmail.com",CustomerAddress="Tamil Nadu",CustomerMobileNumber="8765432109"});
-    //act
+    _mockCustomer.Setup(customer => customer.GetCustomer()).Returns(new List<Customer>());
+     //act
     var result = _controller.Get();
-    
     //asert
     Assert.IsType<OkObjectResult>(result);
-    }*/
+    }
     [Fact]
     public void When_AuthenticateCustomer_Method_Is_Passed_With_Valid_Name_And_Password_It_Returns_StatusCode_200()
      {
-        _mockCustomer.Setup(s=> s.Authenticate("Karan","8867802650")).Returns(new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650",CustomerAccountNumber="1234-1234-1234-1234"});
+        _mockCustomer.Setup(s=> s.Authenticate("Karan","1234")).Returns(new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650",Password ="1234", CustomerAccountNumber="1234-1234-1234-1234"});
         // Act
-        var createdResponse = _controller.AuthenticateCustomer(new CustomerAuthenticationData(){UserName = "Karan",Password = "8867802650"});
+        var createdResponse = _controller.AuthenticateCustomer(new CustomerAuthenticationData(){UserName = "Karan",Password = "1234"});
         var okResult = createdResponse as OkObjectResult;
         // Assert
     
@@ -64,7 +63,7 @@ namespace EShoppingWebApi.Test
         var result = Convert.ToString(BadResult.Value);
         // Assert
     
-        Assert.Equal("{ message =  Username or password is Incorrect }",result);  
+        Assert.Equal("{ message =  Username or password is incorrect  }",result);  
       }
     [Fact]  
     public void When_AuthenticateCustomer_Method_Is_Passed_With_Name_Being_Empty_And_A_Valid_Password_Returns_Null()
@@ -87,6 +86,18 @@ namespace EShoppingWebApi.Test
         // Assert
         Assert.Equal("{ message =  Username or password is incorrect  }",Result);  
       }
+    [Fact]
+    public void When_AddCustomer_IsCalled_With_All_The_ValidData_It_Returns_Customer_Added_Successfully()
+    {
+      //Act     
+      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "Karan" , CustomerMobileNumber="8867802650",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",Password="xyz", CustomerAccountNumber="1234-1234-1234-1234"});
+      var SuccessResult = AddingRespose as OkObjectResult;
+      var Result = Convert.ToString(SuccessResult.Value);
+        // Assert
+      Assert.Equal("{ message = Customer Added Sucessfully }",Result);
+
+    }
+    
     [Fact]
     public void When_AddCustomer_IsCalled_With_CustomerName_As_Null_Than_It_Returns_Customer_Name_Cannot_Be_Empty()
     {
@@ -149,73 +160,53 @@ namespace EShoppingWebApi.Test
 
     }
     [Fact] 
-    public void When_AddCustomer_IsCalled_With_Wrong_Input_For_Custmer_Email_Than_It_Returns_Mail_Id_Is_Not_Valid()
+    public void When_AddCustomer_IsCalled_With_Wrong_Input_For_Custmer_Email_Than_It_Returns_Entered_Customer_Mail_Id_Is_Not_Proper()
     {
-      //Act     
-      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "Karan",CustomerEmailId ="karang.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650"});
+      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "Karan",CustomerEmailId ="karangcom",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650",Password="XYZ",CustomerAccountNumber="1234-1234-1234-1234"});
       var Result = AddingRespose as BadRequestObjectResult;
       var BadResult = Convert.ToString(Result.Value);
       //Assert
-      Assert.Equal("{ message = Mail Id is not valid }",BadResult);
+      Assert.Equal("{ message = Entered Customer Email id is not Proper  }",BadResult);
+
+      
+    }
+    [Fact] 
+    public void When_AddCustomer_IsCalled_With_Wrong_Input_For_Custmer_MobileNUmber_Than_It_Returns_Entered_Mobile_Number_Is_Not_Proper()
+    {
+      //Act     
+      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@gmail.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="88678026A1",Password="XYZ",CustomerAccountNumber="1234-1234-1234-1234"});
+      var Result = AddingRespose as BadRequestObjectResult;
+      var BadResult = Convert.ToString(Result.Value);
+      //Assert
+      Assert.Equal("{ message = Entered Customer Mobile Number is not Proper  }",BadResult);
+
 
     }
     [Fact] 
-    public void When_AddCustomer_IsCalled_With_Wrong_Input_For_Custmer_MobileNUmber_Than_It_Returns_Mobile_Number_Is_Incorrect()
+    public void When_AddCustomer_IsCalled_With_Wrong_Input_For_Custmer_AccountNUmber_Than_It_Returns_Entered_Account_Number_Is_Not_Proper()
     {
       //Act     
-      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="88678026"});
+      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@gmail.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802621",Password="XYZ",CustomerAccountNumber="1234-1234-1234-AB"});
       var Result = AddingRespose as BadRequestObjectResult;
       var BadResult = Convert.ToString(Result.Value);
       //Assert
-      Assert.Equal("{ message = Mobile Number is Incorrect }",BadResult);
+      Assert.Equal("{ message = Entered Customer Account Number not Proper(Eg:XXXX-XXXX-XXXX-XXXX) }",BadResult);
 
-    }
-    [Fact] 
-    public void When_AddCustomer_IsCalled_With_The_Custmer_Name_Field_Empty_Than_It_Returns_Name_Field_Cannot_Be_Empty()
-    {
-      //Act     
-      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = " ",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="88678026"});
-      var Result = AddingRespose as BadRequestObjectResult;
-      var BadResult = Convert.ToString(Result.Value);
-      //Assert
-      Assert.Equal("{ message = Name Field Cannot be Empty }",BadResult);
-
-    }
-    [Fact] 
-    public void When_AddCustomer_IsCalled_With_The_Custmer_Email_Field_Empty_Than_It_Returns_Email_Field_Cannot_be_Empty()
-    {
-      //Act     
-      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "karan",CustomerEmailId =" ",CustomerAddress="Tamil nadu",CustomerMobileNumber="88678026"});
-      var Result = AddingRespose as BadRequestObjectResult;
-      var BadResult = Convert.ToString(Result.Value);
-      //Assert
-      Assert.Equal("{ message = Email Field Cannot be Empty }",BadResult);
-
-    }
-    [Fact] 
-    public void When_AddCustomer_IsCalled_With_The_Custmer_Address_Field_Empty_Than_It_Returns_Address_Field_Cannot_be_Empty()
-    {
-      //Act     
-      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "karan",CustomerEmailId ="karan@gmail.com",CustomerAddress=" ",CustomerMobileNumber="88678026"});
-      var Result = AddingRespose as BadRequestObjectResult;
-      var BadResult = Convert.ToString(Result.Value);
-      //Assert
-      Assert.Equal("{ message = Address Field Cannot be Empty }",BadResult);
 
     }
     [Fact]
-    public void When_AddCustomer_IsCalled_With_The_Custmer_Mobile_Number_Field_is_Empty_Than_It_Returns_Mobile_Number_Field_Cannot_be_Empty()
-    {
-      //Act     
-      var AddingRespose = _controller.AddCustomers(new Customer(){CustomerName = "karan",CustomerEmailId ="karan@gmail.com",CustomerAddress="Tamil Nadu",CustomerMobileNumber=" "});
-      var Result = AddingRespose as BadRequestObjectResult;
-      var BadResult = Convert.ToString(Result.Value);
-      //Assert
-      Assert.Equal("{ message = Mobile Number Field Cannot be Empty }",BadResult);
+    public void When_An_Existing_Customer_Is_Tried_To_Add_Again_AddCustomer_Method_Returns_Customer_Already_Exists(){
+     //Act
+      _mockCustomer.Setup(customer => customer.AddCustomer(new Customer(){CustomerName = "Karan" , CustomerMobileNumber="8867802650",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",Password="xyz", CustomerAccountNumber="1234-1234-1234-1234"}));     
+      var AddingResponse =_controller.AddCustomers(new Customer(){CustomerName = "Karan" , CustomerMobileNumber="8867802650",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",Password="xyz", CustomerAccountNumber="1234-1234-1234-1234"});
+      
+       
+      var BadResult = AddingResponse as BadRequestObjectResult;
+      var Result = Convert.ToString(BadResult.Value);
+        // Assert
+      Assert.Equal("{ message = Customer Already exists }",Result);
 
-    }
-     
-    
+    }   
 
      
      

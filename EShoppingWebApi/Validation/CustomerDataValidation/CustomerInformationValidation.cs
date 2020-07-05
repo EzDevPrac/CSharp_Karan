@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using EShoppingWebApi.Models;
- 
+using EShoppingWebApi.Service.CustomerServices; 
 namespace EShoppingWebApi.Validation.CustomerDataValidation
 {
     public class CustomerInformationValidation : ICustomerInformationValidation
@@ -58,9 +58,17 @@ namespace EShoppingWebApi.Validation.CustomerDataValidation
              return -1;
         return 1;
         }
-        public int CheckExistingCustomer(List<Customer> data){
+        public int CheckExistingCustomer(Customer _Customer){
 
-         return 0;
+         foreach (var customer in CustomerService.CustomerList)
+         {
+             if(_Customer.CustomerName == customer.CustomerName && _Customer.CustomerMobileNumber == customer.CustomerMobileNumber)
+               {
+                  return 0;
+               }
+         }
+         return 1;
+
         }
     }
 }

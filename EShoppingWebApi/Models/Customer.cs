@@ -10,9 +10,6 @@ namespace EShoppingWebApi.Models
         private string customerAddress;
         private string password;
         private string customerAccountNumber;
-        public Customer()
-        {
-        }
         [Required(ErrorMessage = "Customer name Cannot be Empty ")]
         public string CustomerName { get => customerName; set => customerName = value; }
         

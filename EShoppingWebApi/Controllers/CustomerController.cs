@@ -30,7 +30,8 @@ namespace EShoppingWebApi.Controllers
         public ActionResult AddCustomers([FromBody] Customer customer){
          //ICustomerInformationValidation returns
          //1-Success,0-Invalid,-1-Null Value
-
+         if(CustomerDataValidation.CheckExistingCustomer(customer)==0)
+          return BadRequest(new{message = "Customer Already exists"});
          if(CustomerDataValidation.ValidateName(customer.CustomerName) == -1)
            return BadRequest(new{message = " Customer name cannot be Empty"});
          if(CustomerDataValidation.ValidateMobileNumber(customer.CustomerMobileNumber) == -1)
@@ -81,7 +82,16 @@ namespace EShoppingWebApi.Controllers
            return Ok(_Customer);
         }   
     
-    
+        [HttpDelete]
+        public ActionResult RemoveCustomer([FromBody] CustomerAuthenticationData userData)
+        {
+          if(CustomerService.Delete(userData)==0)
+           {return BadRequest(new{message ="Customer Does not Exist"});}
+          
+        return Ok(this.CustomerService.Delete(userData));
+        
+
+        }
     
     
     }

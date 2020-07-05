@@ -12,5 +12,7 @@ namespace EShoppingWebApi.Service.CustomerServices
 
         void AddCustomer(Customer customer);
         
+        int Delete(CustomerAuthenticationData userData);
+        
     }
 }
