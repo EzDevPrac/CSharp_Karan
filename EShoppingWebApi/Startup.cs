@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using EShoppingWebApi.Service.CustomerServices;
+using EShoppingWebApi.Validation.CustomerDataValidation;
 //using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 namespace EShoppingWebApi
 {   
@@ -29,6 +30,7 @@ namespace EShoppingWebApi
         {
              services.AddControllers();
              services.AddScoped<ICustomerService, CustomerService>();
+             services.AddScoped<ICustomerInformationValidation, CustomerInformationValidation>();
              //services.Add<ICustomerService>();
              //services.AddControllers().AddNewtonsoftJson();
 
