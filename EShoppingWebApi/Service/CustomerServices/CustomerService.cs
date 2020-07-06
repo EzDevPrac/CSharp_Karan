@@ -8,11 +8,7 @@ namespace EShoppingWebApi.Service.CustomerServices
     {
         public static List<Customer> CustomerList =new List<Customer>();
         public static List<CustomerAuthenticationData> AuthenticationDataList = new List<CustomerAuthenticationData>();
-        public CustomerService()
-        {
-          CustomerList.Add(new Customer());
-
-        }
+        
         public Customer Authenticate(string name,string Password)
         {
               if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(Password))

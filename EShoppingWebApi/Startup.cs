@@ -12,7 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using EShoppingWebApi.Service.CustomerServices;
+using EShoppingWebApi.Service.ProductHandler;
 using EShoppingWebApi.Validation.CustomerDataValidation;
+using EShoppingWebApi.Validation.ProductValidation;
 //using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 namespace EShoppingWebApi
 {   
@@ -31,9 +33,8 @@ namespace EShoppingWebApi
              services.AddControllers();
              services.AddScoped<ICustomerService, CustomerService>();
              services.AddScoped<ICustomerInformationValidation, CustomerInformationValidation>();
-             //services.Add<ICustomerService>();
-             //services.AddControllers().AddNewtonsoftJson();
-
+             services.AddScoped<IProductHandler,ProductHandler>();
+             services.AddScoped<IProductValidation,ProductValidation>();
              services.AddMvc();
              services.AddSwaggerGen(c =>
             {
@@ -63,12 +64,13 @@ namespace EShoppingWebApi
 
             app.UseSwagger();
 
-// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
 
-app.UseSwaggerUI(c =>
-{
-c.SwaggerEndpoint("/swagger/v1/swagger.json", "EShopping.com V1");
-});
+         // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
+
+            app.UseSwaggerUI(c =>
+            {
+              c.SwaggerEndpoint("/swagger/v1/swagger.json", "EShopping.com V1");
+            });
         }
     }
 }

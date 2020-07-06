@@ -85,9 +85,10 @@ namespace EShoppingWebApi.Controllers
         [HttpDelete]
         public ActionResult RemoveCustomer([FromBody] CustomerAuthenticationData userData)
         {
-          if(CustomerService.Delete(userData)==0)
+          if(CustomerService.Delete(userData) == 0)
            {return BadRequest(new{message ="Customer Does not Exist"});}
-          
+        
+        
         return Ok(this.CustomerService.Delete(userData));
         
 
