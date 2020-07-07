@@ -5,11 +5,12 @@ using Microsoft.Extensions.Logging;
 using EShoppingWebApi.Service.ProductHandler;
 using EShoppingWebApi.Models;
 using EShoppingWebApi.Validation.ProductValidation;
-
+using System.Collections.Specialized;
+using System.Web;
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
     [Route("[controller]")]
-    public class ProductController : ControllerBase
+    public class ProductController : Controller
     {
       IProductHandler productHandler;
       IProductValidation productValidation;
@@ -20,19 +21,20 @@ namespace EShoppingWebApi.Controllers
 
       [HttpGet]
       public ActionResult Get(){
-        if(productHandler.GetProduct()==null)
+       if(productHandler.GetProduct()==null)
          return BadRequest(new {message =" There are no product to display" });
-
+      
       return Ok(this.productHandler.GetProduct());    
-
+       
       }
       
       [HttpPut]
-
       public ActionResult AddToProductList([FromBody] Product product)
-      {//-1 - null
+      {
+       //-1 - null
        //1 - Success
        // 0 - Invalid
+       
        if(productValidation.ValidateProductId(product.ProductId)== -1)
          return BadRequest(new{mesage = "Id Field cannot be Null"});  
        if(productValidation.ValidateProductName(product.ProductName) == -1)
@@ -59,8 +61,8 @@ namespace EShoppingWebApi.Controllers
        }
        else
        { return BadRequest(new{message = "Invalid Product Id"});}
-      
-      
+        
+      //return BadRequest();
      }
 
       [HttpDelete]
@@ -71,6 +73,6 @@ namespace EShoppingWebApi.Controllers
       return Ok(this.productHandler.DeleteProduct(id));
      } 
 
-
+      
     }
 }    

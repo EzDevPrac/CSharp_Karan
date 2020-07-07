@@ -9,7 +9,7 @@ namespace EShoppingWebApi.Validation.ProductValidation
          
          MatchValue = @"^[a-zA-Z0-9\s]+$";
 
-         if(productName == null)
+         if(productName == null || productName == " ")
            return -1;
          if(Regex.IsMatch(productName,MatchValue))
            return 1 ;

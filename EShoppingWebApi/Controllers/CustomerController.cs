@@ -5,11 +5,11 @@ using Microsoft.Extensions.Logging;
 using EShoppingWebApi.Service.CustomerServices;
 using EShoppingWebApi.Models;
 using EShoppingWebApi.Validation.CustomerDataValidation;
-
+using System.Web;
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
     [Route("[controller]")]
-    public class CustomerController :ControllerBase
+    public class CustomerController :Controller
     {
         ICustomerService CustomerService ;
         ICustomerInformationValidation CustomerDataValidation;
@@ -26,7 +26,7 @@ namespace EShoppingWebApi.Controllers
         return Ok(this.CustomerService.GetCustomer());
         }
     
-        [HttpPut]
+        [HttpPost]
         public ActionResult AddCustomers([FromBody] Customer customer){
          //ICustomerInformationValidation returns
          //1-Success,0-Invalid,-1-Null Value
@@ -71,16 +71,7 @@ namespace EShoppingWebApi.Controllers
          
         }
     
-        [HttpPost]
-        public IActionResult AuthenticateCustomer([FromBody]CustomerAuthenticationData customerData)
-        {  
-            var _Customer = CustomerService.Authenticate(customerData.UserName,customerData.Password);
-
-            if (_Customer == null)
-                return BadRequest(new { message = " Username or password is incorrect " });
            
-           return Ok(_Customer);
-        }   
     
         [HttpDelete]
         public ActionResult RemoveCustomer([FromBody] CustomerAuthenticationData userData)

@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using EShoppingWebApi.Service.EmployeeService;
 using EShoppingWebApi.Service.CustomerServices;
 using EShoppingWebApi.Service.ProductHandler;
 using EShoppingWebApi.Validation.CustomerDataValidation;
@@ -35,6 +36,7 @@ namespace EShoppingWebApi
              services.AddScoped<ICustomerInformationValidation, CustomerInformationValidation>();
              services.AddScoped<IProductHandler,ProductHandler>();
              services.AddScoped<IProductValidation,ProductValidation>();
+             services.AddScoped<IEmployeeService,EmployeeService>();
              services.AddMvc();
              services.AddSwaggerGen(c =>
             {
@@ -61,7 +63,7 @@ namespace EShoppingWebApi
             {
                 endpoints.MapControllers();
             });
-
+            
             app.UseSwagger();
 
 
