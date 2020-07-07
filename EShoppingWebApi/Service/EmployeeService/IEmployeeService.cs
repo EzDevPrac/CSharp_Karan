@@ -1,7 +1,9 @@
+using EShoppingWebApi.Models;
+
 namespace EShoppingWebApi.Service.EmployeeService
 {
     public interface IEmployeeService
     {
-       int Authenticate(string name,string password);  
+       Employee Authenticate(string name,string password);  
     }
 }

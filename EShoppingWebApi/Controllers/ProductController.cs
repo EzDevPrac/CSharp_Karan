@@ -10,6 +10,7 @@ using System.Web;
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
     [Route("[controller]/[Action]")]
+    
     public class ProductController : Controller
     {
       IProductHandler productHandler;
@@ -18,7 +19,7 @@ namespace EShoppingWebApi.Controllers
         this.productHandler = productHandler;
         this.productValidation = new ProductValidation();
       }
-
+      
       [HttpGet]
       public ActionResult Get(){
        if(productHandler.GetProduct()==null)
@@ -28,9 +29,10 @@ namespace EShoppingWebApi.Controllers
        
       }
       
-      [HttpPut]
+      [HttpPost]
       public ActionResult AddToProductList([FromBody] Product product)
       {
+        
        //-1 - null
        //1 - Success
        // 0 - Invalid

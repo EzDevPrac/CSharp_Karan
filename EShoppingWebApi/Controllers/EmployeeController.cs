@@ -20,14 +20,5 @@ namespace EShoppingWebApi.Controllers
            this._employeeService = _employeeService;
 
         }
-        [HttpPost]
-        public IActionResult AuthenticateEmployee(string EmployeeName,string EmployeePassword)
-        {
-           
-           int data =_employeeService.Authenticate(EmployeeName,EmployeePassword);
-           TempData["mydata"] = data;
-           //return RedirectToAction("Product/AddToProductList");
-           return RedirectToAction("AddToProductList","Product"); 
-        }
     }
 }

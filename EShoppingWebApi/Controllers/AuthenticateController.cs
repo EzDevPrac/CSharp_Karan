@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EShoppingWebApi.Service.CustomerServices;
+using EShoppingWebApi.Service.EmployeeService;
 using EShoppingWebApi.Models;
 using EShoppingWebApi.Validation.CustomerDataValidation;
-using System.Web;
-
 
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
@@ -16,14 +15,16 @@ namespace EShoppingWebApi.Controllers
 
 
         ICustomerService CustomerService ;
-
-        public AuthenticateController(ICustomerService customerService)
+        IEmployeeService employeeService;   
+        public AuthenticateController(ICustomerService customerService,IEmployeeService employeeService)
         {
             CustomerService = customerService;
+            this.employeeService = employeeService;
         }
 
         [HttpPost]
-        public IActionResult AuthenticateCustomer([FromBody]CustomerAuthenticationData customerData)
+        [ActionName("CustomerLogin")]
+        public IActionResult CustomerLogin([FromBody]CustomerAuthenticationData customerData)
         {  
             var _Customer = CustomerService.Authenticate(customerData.UserName,customerData.Password);
 
@@ -33,5 +34,23 @@ namespace EShoppingWebApi.Controllers
           return Ok(_Customer);
         
         }
+        [HttpPost]
+        [ActionName("EmployeeLogin")]
+        
+        public IActionResult EmployeeLogin([FromBody]Employee employee)
+        {
+           
+           var data =employeeService.Authenticate(employee.EmployeeName,employee.EmployeePassword);
+           if(data == null)
+            return BadRequest(new { message = " Username or password is incorrect " });
+           
+         // return Ok(data);
+          return RedirectToRoute(new
+                                 {controller = "Product",
+                                 action = "AddToProductList"}); 
+
+        }
+
+        
     }
 }

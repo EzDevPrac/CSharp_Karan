@@ -54,6 +54,7 @@ namespace EShoppingWebApi.Controllers
                         if(CustomerDataValidation.ValidateAccountNumber(customer.CustomerAccountNumber) == 1)
                         {
                             this.CustomerService.AddCustomer(customer);
+                            
                             return Ok(new  {message = "Customer Added Sucessfully"});              
                         }
                         else
