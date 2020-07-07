@@ -10,7 +10,7 @@ using System.Web;
 
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class AuthenticateController : Controller
     {
 

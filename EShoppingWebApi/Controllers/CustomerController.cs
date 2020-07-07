@@ -8,7 +8,7 @@ using EShoppingWebApi.Validation.CustomerDataValidation;
 using System.Web;
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class CustomerController :Controller
     {
         ICustomerService CustomerService ;
@@ -27,7 +27,7 @@ namespace EShoppingWebApi.Controllers
         }
     
         [HttpPost]
-        public ActionResult AddCustomers([FromBody] Customer customer){
+        public ActionResult Registration([FromBody] Customer customer){
          //ICustomerInformationValidation returns
          //1-Success,0-Invalid,-1-Null Value
          if(CustomerDataValidation.CheckExistingCustomer(customer)==0)

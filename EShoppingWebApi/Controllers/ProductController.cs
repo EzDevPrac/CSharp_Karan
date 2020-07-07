@@ -9,7 +9,7 @@ using System.Collections.Specialized;
 using System.Web;
 namespace EShoppingWebApi.Controllers
 {   [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[Action]")]
     public class ProductController : Controller
     {
       IProductHandler productHandler;
