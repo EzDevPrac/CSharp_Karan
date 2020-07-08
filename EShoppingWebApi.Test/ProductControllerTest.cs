@@ -15,6 +15,7 @@ namespace EShoppingWebApi.Test
     public class ProductControllerTest
     {
         private readonly Mock<IProductHandler> _mockProduct;
+
         private  ProductController _ProductController;
         //private IProductValidation productValidation;
 
@@ -22,7 +23,7 @@ namespace EShoppingWebApi.Test
         {
             _mockProduct = new Mock<IProductHandler>();
             _ProductController = new ProductController(_mockProduct.Object);
-           
+                     
         }
 
         [Fact]
@@ -56,7 +57,7 @@ namespace EShoppingWebApi.Test
         [Fact]
         public void When_Add_Products_Method_Is_Called_With_All_The_Valid_Data_Than_It_Returns_Product_Added_Sucessfully()
         {
-        
+           
            var okResult = _ProductController. AddToProductList(new Product(){ProductId = 123,ProductName = "Watch",ProductCost = 12000});
            var SuccessResult = okResult as OkObjectResult;
            var Result = Convert.ToString(SuccessResult.Value);
@@ -95,7 +96,9 @@ namespace EShoppingWebApi.Test
         }
         [Fact]
         public void When_Add_Products_Method_Is_Called_With_The_Null_Value_For_Product_Name_It_Returs_Name_Field_Cannot_be_Null()
-        {
+        {  
+         
+           
            var Result = _ProductController. AddToProductList(new Product(){ProductId = 123,ProductName = null,ProductCost = 12000});
            var BadResult = Result as BadRequestObjectResult;
            var FinalResult = Convert.ToString(BadResult.Value);

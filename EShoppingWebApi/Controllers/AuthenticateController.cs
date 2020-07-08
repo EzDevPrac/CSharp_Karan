@@ -26,13 +26,16 @@ namespace EShoppingWebApi.Controllers
         [ActionName("CustomerLogin")]
         public IActionResult CustomerLogin([FromBody]CustomerAuthenticationData customerData)
         {  
-            var _Customer = CustomerService.Authenticate(customerData.UserName,customerData.Password);
-
-            if (_Customer == null)
-                return BadRequest(new { message = " Username or password is incorrect " });
+      
+            Guid  _Customer = CustomerService.Authenticate(customerData.UserName,customerData.Password);
            
-          return Ok(_Customer);
-        
+            if(_Customer == new Guid())
+             {return BadRequest(new { message = " Username or password is incorrect " });}
+         
+
+          TempData["ID"] =_Customer;
+          //return RedirectToAction()
+          return Ok();
         }
         [HttpPost]
         [ActionName("EmployeeLogin")]
@@ -40,15 +43,16 @@ namespace EShoppingWebApi.Controllers
         public IActionResult EmployeeLogin([FromBody]Employee employee)
         {
            
-           var data =employeeService.Authenticate(employee.EmployeeName,employee.EmployeePassword);
-           if(data == null)
-            return BadRequest(new { message = " Username or password is incorrect " });
+           var data = employeeService.Authenticate(employee.EmployeeName,employee.EmployeePassword);
            
-         // return Ok(data);
-          return RedirectToRoute(new
-                                 {controller = "Product",
-                                 action = "AddToProductList"}); 
+           if(data == null)
+            {return BadRequest(new { message = " Username or password is incorrect " });}
 
+           
+         
+              
+         return Ok(new{message = "Login Sucessfull"});
+          
         }
 
         

@@ -1,0 +1,13 @@
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.csprojAssemblyReference.cache
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.AssemblyInfoInputs.cache
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.AssemblyInfo.cs
+K:\MyCSharpProject\InheritanceDemo\bin\Debug\netcoreapp3.1\InheritanceDemo.exe
+K:\MyCSharpProject\InheritanceDemo\bin\Debug\netcoreapp3.1\InheritanceDemo.deps.json
+K:\MyCSharpProject\InheritanceDemo\bin\Debug\netcoreapp3.1\InheritanceDemo.runtimeconfig.json
+K:\MyCSharpProject\InheritanceDemo\bin\Debug\netcoreapp3.1\InheritanceDemo.runtimeconfig.dev.json
+K:\MyCSharpProject\InheritanceDemo\bin\Debug\netcoreapp3.1\InheritanceDemo.dll
+K:\MyCSharpProject\InheritanceDemo\bin\Debug\netcoreapp3.1\InheritanceDemo.pdb
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.dll
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.pdb
+K:\MyCSharpProject\InheritanceDemo\obj\Debug\netcoreapp3.1\InheritanceDemo.genruntimeconfig.cache

@@ -16,6 +16,7 @@ using EShoppingWebApi.Service.CustomerServices;
 using EShoppingWebApi.Service.ProductHandler;
 using EShoppingWebApi.Validation.CustomerDataValidation;
 using EShoppingWebApi.Validation.ProductValidation;
+using EShoppingWebApi.Service.CartHandler;
 //using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 namespace EShoppingWebApi
 {   
@@ -37,6 +38,7 @@ namespace EShoppingWebApi
              services.AddScoped<IProductHandler,ProductHandler>();
              services.AddScoped<IProductValidation,ProductValidation>();
              services.AddScoped<IEmployeeService,EmployeeService>();
+             services.AddScoped<ICartHandler,CartHandler>();
              services.AddMvc();
              services.AddSwaggerGen(c =>
             {

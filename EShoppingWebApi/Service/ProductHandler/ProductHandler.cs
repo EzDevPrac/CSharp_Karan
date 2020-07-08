@@ -5,7 +5,7 @@ namespace EShoppingWebApi.Service.ProductHandler
 {
     public class ProductHandler : IProductHandler
     {
-        public static List<Product> ProductList = new List<Product>(){new Product(){ProductId = 123,ProductName= "Watch",ProductCost=12000}};
+        public static List<Product> ProductList= new List<Product>(){new Product(){ProductId = 123,ProductName= "Watch",ProductCost=12000}};
         
         public List<Product> GetProduct(){
             if(ProductList.Count == 0)

@@ -1,6 +1,6 @@
 using EShoppingWebApi.Models;
 using System.Collections.Generic;
-
+using System;
 
 namespace EShoppingWebApi.Service.CustomerServices
 {
@@ -8,11 +8,12 @@ namespace EShoppingWebApi.Service.CustomerServices
     {
         public static List<Customer> CustomerList =new List<Customer>();
         public static List<CustomerAuthenticationData> AuthenticationDataList = new List<CustomerAuthenticationData>();
-        
-        public Customer Authenticate(string name,string Password)
-        {
-              if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(Password))
-                return null;
+
+        public static List<Guid> CustometUniqeIds = new List<Guid>();
+        public Guid Authenticate(string name,string Password)
+        {  Guid wrong = new Guid();
+             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(Password))
+               return wrong;
 
               else
               {
@@ -20,15 +21,17 @@ namespace EShoppingWebApi.Service.CustomerServices
                   {
                         if(customer.CustomerName == name && customer.Password == Password)
                           {
-
-                              return customer;
+                              Guid id  = customer.CustomerUniqueId;
+                              CustometUniqeIds.Add(id);
+                              //return customer;
+                              return id;
                           }
 
                   }
 
               }
 
-              return null;  
+              return wrong;  
 
         }
 

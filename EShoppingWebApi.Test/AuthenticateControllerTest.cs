@@ -35,20 +35,21 @@ namespace EShoppingWebApi.Test
     [InlineData("Riya","12333",200)]
     public void When_CustomerLogin_Method_Is_Passed_With_Valid_Name_And_Password_It_Returns_StatusCode_200(string username,string password,int result)
      {
-        _mockCustomer.Setup(customer=> customer.Authenticate(username,password)).Returns(new Customer(){CustomerName = username ,CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650",Password =password, CustomerAccountNumber="1234-1234-1234-1234"});
+      
+        _mockCustomer.Setup(customer=> customer.Authenticate(username,password)).Returns(new Guid());//new Customer(){CustomerName = username ,CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650",Password =password, CustomerAccountNumber="1234-1234-1234-1234"});
         // Act
         var createdResponse = _controller.CustomerLogin(new CustomerAuthenticationData(){UserName = username,Password = password});
-        var okResult = createdResponse as OkObjectResult;
-        result = Convert.ToInt16(okResult.StatusCode);
+        //okResult = createdResponse as RedirectToActionResult;
+        //result = Convert.ToInt16(okResult.StatusCode);
         // Assert
-      
-        Assert.Equal(200, result);  
+        Assert.IsType<RedirectToActionResult>(createdResponse);
+        //Assert.Equal(200, result);  
       }
     [Fact]
     public void When_CustomerLogin_Method_Is_Passed_With_InValid_Name_And_Password_Returns_UserName_Or_Password_Is_Incorrect()
      {
         //Act
-        _mockCustomer.Setup(s=> s.Authenticate("Karan","8867802650")).Returns(new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650"});
+        _mockCustomer.Setup(s=> s.Authenticate("Karan","8867802650")).Returns(new Guid());//new Customer(){CustomerName = "Karan",CustomerEmailId ="karan@g.com",CustomerAddress="Tamil nadu",CustomerMobileNumber="8867802650"});
         var createdResponse = _controller.CustomerLogin(new CustomerAuthenticationData(){UserName = "Karan",Password = "8867802899"});
         var BadResult = createdResponse as BadRequestObjectResult;
         var result = Convert.ToString(BadResult.Value);

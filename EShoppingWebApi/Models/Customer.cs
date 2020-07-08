@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-
+using System;
 namespace EShoppingWebApi.Models
 {
     public class Customer
@@ -9,6 +9,8 @@ namespace EShoppingWebApi.Models
         private string customerEmailId;
         private string customerAddress;
         private string password;
+
+        private Guid customerUniqueId= new Guid();
         private string customerAccountNumber;
         [Required(ErrorMessage = "Customer name Cannot be Empty ")]
         public string CustomerName { get => customerName; set => customerName = value; }
@@ -31,6 +33,7 @@ namespace EShoppingWebApi.Models
 
         [Required(ErrorMessage = "Card Number Cannot be Empty")]
         public string CustomerAccountNumber { get => customerAccountNumber; set => customerAccountNumber = value; }
+        public Guid CustomerUniqueId { get => customerUniqueId;}
     }
         
 }

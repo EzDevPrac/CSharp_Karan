@@ -1,0 +1,13 @@
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.csprojAssemblyReference.cache
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.csproj.CoreCompileInputs.cache
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.AssemblyInfoInputs.cache
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.AssemblyInfo.cs
+K:\MyCSharpProject\PolymorohismDemo\bin\Debug\netcoreapp3.1\PolymorohismDemo.exe
+K:\MyCSharpProject\PolymorohismDemo\bin\Debug\netcoreapp3.1\PolymorohismDemo.deps.json
+K:\MyCSharpProject\PolymorohismDemo\bin\Debug\netcoreapp3.1\PolymorohismDemo.runtimeconfig.json
+K:\MyCSharpProject\PolymorohismDemo\bin\Debug\netcoreapp3.1\PolymorohismDemo.runtimeconfig.dev.json
+K:\MyCSharpProject\PolymorohismDemo\bin\Debug\netcoreapp3.1\PolymorohismDemo.dll
+K:\MyCSharpProject\PolymorohismDemo\bin\Debug\netcoreapp3.1\PolymorohismDemo.pdb
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.dll
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.pdb
+K:\MyCSharpProject\PolymorohismDemo\obj\Debug\netcoreapp3.1\PolymorohismDemo.genruntimeconfig.cache
